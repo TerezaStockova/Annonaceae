@@ -1,0 +1,332 @@
+IQ-TREE 3.0.1 built May  5 2025
+
+Input file name: C:\Users\terez\OneDrive\Plocha\PP (Plantsies and Programming)\Annonaceae\aligned_plastomes_copy_aliview.fasta
+Type of analysis: tree reconstruction + ultrafast bootstrap (1000 replicates)
+Random seed number: 956093
+
+REFERENCES
+----------
+
+To cite IQ-TREE 3 please use:
+
+Thomas K.F. Wong, Nhan Ly-Trong, Huaiyan Ren, Hector Banos, Andrew J. Roger,
+Edward Susko, Chris Bielow, Nicola De Maio, Nick Goldman, Matthew W. Hahn,
+Gavin Huttley, Robert Lanfear, Bui Quang Minh (2025)
+IQ-TREE 3: Phylogenomic Inference Software using Complex Evolutionary Models.
+Submitted.
+
+Please also cite the following paper(s) for the feature(s) that you used:
+
+Since you used ultrafast bootstrap (UFBoot) please also cite: 
+
+Diep Thi Hoang, Olga Chernomor, Arndt von Haeseler, Bui Quang Minh,
+and Le Sy Vinh (2018) UFBoot2: Improving the ultrafast bootstrap
+approximation. Mol. Biol. Evol., 35:518–522.
+https://doi.org/10.1093/molbev/msx281
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 50 sequences with 201426 nucleotide sites
+Number of constant sites: 141187 (= 70.0937% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 141187 (= 70.0937% of all sites)
+Number of parsimony informative sites: 35407
+Number of distinct site patterns: 47543
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: GTR+F+G4
+
+Rate parameter R:
+
+  A-C: 0.9307
+  A-G: 2.2104
+  A-T: 0.7884
+  C-G: 0.5778
+  C-T: 2.2965
+  G-T: 1.0000
+
+State frequencies: (empirical counts from alignment)
+
+  pi(A) = 0.301
+  pi(C) = 0.2009
+  pi(G) = 0.1917
+  pi(T) = 0.3064
+
+Rate matrix Q:
+
+  A   -0.8898    0.1952    0.4423    0.2522
+  C    0.2925    -1.143    0.1156    0.7347
+  G    0.6948    0.1212    -1.136    0.3199
+  T    0.2478    0.4817    0.2001   -0.9296
+
+Model of rate heterogeneity: Gamma with 4 categories
+Gamma shape alpha: 0.3292
+
+ Category  Relative_rate  Proportion
+  1         0.007962       0.25
+  2         0.1273         0.25
+  3         0.6418         0.25
+  4         3.223          0.25
+Relative rates are computed as MEAN of the portion of the Gamma distribution falling in the category.
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -922655.9942 (s.e. 2513.8811)
+Unconstrained log-likelihood (without tree): -1369073.4748
+Number of free parameters (#branches + #model parameters): 106
+Akaike information criterion (AIC) score: 1845523.9884
+Corrected Akaike information criterion (AICc) score: 1845524.1011
+Bayesian information criterion (BIC) score: 1846606.5852
+
+Total tree length (sum of branch lengths): 0.9860
+Sum of internal branch lengths: 0.3830 (38.8431% of tree length)
+
+NOTE: Tree is UNROOTED although outgroup taxon 'Artabotrys_hexapetalus_Abbott23913_2_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus' is drawn at root
+Numbers in parentheses are SH-aLRT support (%) / ultrafast bootstrap support (%)
+
++---Artabotrys_hexapetalus_Abbott23913_2_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|
+|                            +--Asimina_obovata_Abbott23747_2_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|                         +--| (5.9/45)
+|                         |  |     +--Asimina_pygmaea_Abbott22471_2_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|                         |  |  +--| (79.9/85)
+|                         |  |  |  +--Asimina_reticulata_Abbott22466_2_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|                         |  +--| (97/86)
+|                         |     +--Deeringothamnus_rugelii_Abbott22361_2_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|                      +--| (100/100)
+|                      |  +--Asimina_tetramera_Abbott14312_2_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|                   +--| (100/100)
+|                   |  +--Asimina_parviflora_Abbott20528_2_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|                +--| (100/100)
+|                |  +--S89_AGCGATAG-TATAGCCT_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|             +--| (100/100)
+|             |  +----Disepalum_pulchrum_Chan192_2_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|         +---| (100/100)
+|         |   |                   +**Consensus_Annona_cherimola
+|         |   |                +--| (100/100)
+|         |   |                |  +**S86_Annona_cherimola
+|         |   |             +--| (100/100)
+|         |   |             |  +--Raimondia_quinduensis_Abbott25012_2_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|         |   |          +--| (100/100)
+|         |   |          |  +--S87_TCTCGCGC-CAGGACGT_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|         |   |  +-------| (100/100)
+|         |   |  |       +----S88_TCTCGCGC-GTACTGAC_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|         |   +--| (100/100)
+|         |      +-------S5_S5_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|     +---| (100/100)
+|     |   |      +--S90_AGCGATAG-ATAGAGGC_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|     |   |  +---| (100/100)
+|     |   |  |   |  +--S92_AGCGATAG-GGCTCTGA_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|     |   |  |   +--| (100/100)
+|     |   |  |      |  +--S93_AGCGATAG-AGGCGAAG_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|     |   |  |      +--| (99.7/100)
+|     |   |  |         +--S94_AGCGATAG-TAATCTTA_L002_R2_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|     |   +--| (100/100)
+|     |      |   +--S91_AGCGATAG-CCTATCCT_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|     |      +---| (100/100)
+|     |          +--S96_AGCGATAG-GTACTGAC_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|  +--| (99.9/100)
+|  |  |                         +--Cananga_kirkii
+|  |  |                      +--| (100/100)
+|  |  |                      |  +--Cananga_odorata_Abbott24307_2_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|  |  |                  +---| (100/100)
+|  |  |                  |   +---------------------------------Deeringothamnus_pulchellus_Abbott23697_2_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|  |  |        +---------| (100/100)
+|  |  |        |         +------------------S21_S21_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|  |  |     +--| (100/100)
+|  |  |     |  +---------------------S1_Anaxagorea_phaeocarpa_Mart._vel_aff.
+|  |  |  +--| (100/100)
+|  |  |  |  |              +---S10_S10_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|  |  |  |  |           +--| (99.7/53)
+|  |  |  |  |           |  |  +--S11_S11_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|  |  |  |  |           |  +--| (100/100)
+|  |  |  |  |           |     |     +--S13_Oxandra_macrophylla
+|  |  |  |  |           |     |  +--| (98.2/92)
+|  |  |  |  |           |     |  |  +--S8_S8_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|  |  |  |  |           |     +--| (100/100)
+|  |  |  |  |           |        |     +--S15_S15_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|  |  |  |  |           |        |  +--| (100/100)
+|  |  |  |  |           |        |  |  +--S16_S16_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|  |  |  |  |           |        +--| (99.6/100)
+|  |  |  |  |           |           +--S18_S18_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|  |  |  |  |        +--| (97.5/50)
+|  |  |  |  |        |  |  +--S12_S12_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|  |  |  |  |        |  +--| (100/100)
+|  |  |  |  |        |     +--S23_S23_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|  |  |  |  |     +--| (99.8/99)
+|  |  |  |  |     |  |  +--S17_S17_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|  |  |  |  |     |  +--| (100/100)
+|  |  |  |  |     |     |  +--S2_Cremastosperma_leiophyllum
+|  |  |  |  |     |     +--| (100/100)
+|  |  |  |  |     |        +--S3_S3_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|  |  |  |  +-----| (100/100)
+|  |  |  |        |     +--S19_S19_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|  |  |  |        |  +--| (100/100)
+|  |  |  |        |  |  +--S95_AGCGATAG-CAGGACGT_L002_R2_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|  |  |  |        +--| (100/100)
+|  |  |  |           |  +--S20_S20_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|  |  |  |           +--| (100/100)
+|  |  |  |              +--S4_S4_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|  |  +--| (100/100)
+|  |     |                 +---Cymbopetalum_torulosum_Blanco2264_2_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|  |     |              +--| (100/100)
+|  |     |              |  +----S14_S14_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|  |     +--------------| (100/100)
+|  |                    |   +--S22_S22_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|  |                    +---| (100/100)
+|  |                        +--S9_S9_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
++--| (100/100)
+|  |     +--Fusaea_peruviana_Abbott19140_2_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|  |  +--| (100/100)
+|  |  |  +--S6_S6_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|  +--| (100/100)
+|     +---S7_S7_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|
++---------S24_S24_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+
+Tree in newick format:
+
+(Artabotrys_hexapetalus_Abbott23913_2_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0152815928,(((((((((Asimina_obovata_Abbott23747_2_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0020082325,((Asimina_pygmaea_Abbott22471_2_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0008735078,Asimina_reticulata_Abbott22466_2_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0014363967)79.9/85:0.0007038482,Deeringothamnus_rugelii_Abbott22361_2_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0021567510)97/86:0.0007294954)5.9/45:0.0005479890,Asimina_tetramera_Abbott14312_2_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0021251757)100/100:0.0010774502,Asimina_parviflora_Abbott20528_2_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0020134619)100/100:0.0026250130,S89_AGCGATAG-TATAGCCT_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0036861406)100/100:0.0115090867,Disepalum_pulchrum_Chan192_2_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0176573564)100/100:0.0043369286,(((((Consensus_Annona_cherimola:0.0000004965,S86_Annona_cherimola:0.0000004965)100/100:0.0070162696,Raimondia_quinduensis_Abbott25012_2_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0092975802)100/100:0.0068158143,S87_TCTCGCGC-CAGGACGT_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0107759827)100/100:0.0041738661,S88_TCTCGCGC-GTACTGAC_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0159307262)100/100:0.0260135860,S5_S5_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0279053207)100/100:0.0024083977)100/100:0.0129642275,((S90_AGCGATAG-ATAGAGGC_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0085989208,(S92_AGCGATAG-GGCTCTGA_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0026950694,(S93_AGCGATAG-AGGCGAAG_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0015777582,S94_AGCGATAG-TAATCTTA_L002_R2_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0024552750)99.7/100:0.0008091263)100/100:0.0092080543)100/100:0.0129401674,(S91_AGCGATAG-CCTATCCT_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0092208645,S96_AGCGATAG-GTACTGAC_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0083189713)100/100:0.0141100786)100/100:0.0097435742)100/100:0.0146483250,((((((Cananga_kirkii:0.0031353700,Cananga_odorata_Abbott24307_2_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0028771504)100/100:0.0089313510,Deeringothamnus_pulchellus_Abbott23697_2_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.1087192205)100/100:0.0140124956,S21_S21_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0604266465)100/100:0.0330821201,S1_Anaxagorea_phaeocarpa_Mart._vel_aff.:0.0709492343)100/100:0.0052980589,((((S10_S10_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0132853973,(S11_S11_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0106505536,((S13_Oxandra_macrophylla:0.0076355538,S8_S8_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0059773669)98.2/92:0.0002983363,((S15_S15_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0056898133,S16_S16_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0065689610)100/100:0.0011247612,S18_S18_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0072131010)99.6/100:0.0003642699)100/100:0.0022595938)100/100:0.0026602022)99.7/53:0.0009956400,(S12_S12_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0044149238,S23_S23_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0049824923)100/100:0.0072331822)97.5/50:0.0005471941,(S17_S17_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0058451843,(S2_Cremastosperma_leiophyllum:0.0039111183,S3_S3_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0041237580)100/100:0.0070601942)100/100:0.0032996318)99.8/99:0.0013018305,((S19_S19_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0036128164,S95_AGCGATAG-CAGGACGT_L002_R2_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0041010240)100/100:0.0072768677,(S20_S20_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0038253052,S4_S4_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0028507406)100/100:0.0051541959)100/100:0.0084301427)100/100:0.0206729886)100/100:0.0097900048,((Cymbopetalum_torulosum_Blanco2264_2_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0142243993,S14_S14_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0158352674)100/100:0.0101072259,(S22_S22_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0071732511,S9_S9_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0089395033)100/100:0.0141352354)100/100:0.0481082700)100/100:0.0123975636)99.9/100:0.0014883959,((Fusaea_peruviana_Abbott19140_2_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0113354406,S6_S6_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0086594969)100/100:0.0067110549,S7_S7_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0129407174)100/100:0.0107696764)100/100:0.0041149877,S24_S24_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0320665043);
+
+CONSENSUS TREE
+--------------
+
+Consensus tree is constructed from 1000 bootstrap trees
+Log-likelihood of consensus tree: -922656.14643920
+Robinson-Foulds distance between ML tree and consensus tree: 0
+
+Branches with support >0.00000000% are kept (extended consensus)
+Branch lengths are optimized by maximum likelihood on original alignment
+Numbers in parentheses are bootstrap supports (%)
+
++---Artabotrys_hexapetalus_Abbott23913_2_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|
+|                            +--Asimina_obovata_Abbott23747_2_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|                         +--| (45)
+|                         |  |     +--Asimina_pygmaea_Abbott22471_2_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|                         |  |  +--| (85)
+|                         |  |  |  +--Asimina_reticulata_Abbott22466_2_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|                         |  +--| (86)
+|                         |     +--Deeringothamnus_rugelii_Abbott22361_2_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|                      +--| (100)
+|                      |  +--Asimina_tetramera_Abbott14312_2_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|                   +--| (100)
+|                   |  +--Asimina_parviflora_Abbott20528_2_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|                +--| (100)
+|                |  +--S89_AGCGATAG-TATAGCCT_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|             +--| (100)
+|             |  +----Disepalum_pulchrum_Chan192_2_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|         +---| (100)
+|         |   |                   +**Consensus_Annona_cherimola
+|         |   |                +--| (100)
+|         |   |                |  +**S86_Annona_cherimola
+|         |   |             +--| (100)
+|         |   |             |  +--Raimondia_quinduensis_Abbott25012_2_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|         |   |          +--| (100)
+|         |   |          |  +--S87_TCTCGCGC-CAGGACGT_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|         |   |  +-------| (100)
+|         |   |  |       +----S88_TCTCGCGC-GTACTGAC_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|         |   +--| (100)
+|         |      +-------S5_S5_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|     +---| (100)
+|     |   |      +--S90_AGCGATAG-ATAGAGGC_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|     |   |  +---| (100)
+|     |   |  |   |  +--S92_AGCGATAG-GGCTCTGA_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|     |   |  |   +--| (100)
+|     |   |  |      |  +--S93_AGCGATAG-AGGCGAAG_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|     |   |  |      +--| (100)
+|     |   |  |         +--S94_AGCGATAG-TAATCTTA_L002_R2_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|     |   +--| (100)
+|     |      |   +--S91_AGCGATAG-CCTATCCT_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|     |      +---| (100)
+|     |          +--S96_AGCGATAG-GTACTGAC_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|  +--| (100)
+|  |  |                         +--Cananga_kirkii
+|  |  |                      +--| (100)
+|  |  |                      |  +--Cananga_odorata_Abbott24307_2_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|  |  |                  +---| (100)
+|  |  |                  |   +---------------------------------Deeringothamnus_pulchellus_Abbott23697_2_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|  |  |        +---------| (100)
+|  |  |        |         +------------------S21_S21_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|  |  |     +--| (100)
+|  |  |     |  +---------------------S1_Anaxagorea_phaeocarpa_Mart._vel_aff.
+|  |  |  +--| (100)
+|  |  |  |  |              +---S10_S10_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|  |  |  |  |           +--| (53)
+|  |  |  |  |           |  |  +--S11_S11_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|  |  |  |  |           |  +--| (100)
+|  |  |  |  |           |     |     +--S13_Oxandra_macrophylla
+|  |  |  |  |           |     |  +--| (92)
+|  |  |  |  |           |     |  |  +--S8_S8_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|  |  |  |  |           |     +--| (100)
+|  |  |  |  |           |        |     +--S15_S15_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|  |  |  |  |           |        |  +--| (100)
+|  |  |  |  |           |        |  |  +--S16_S16_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|  |  |  |  |           |        +--| (100)
+|  |  |  |  |           |           +--S18_S18_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|  |  |  |  |        +--| (50)
+|  |  |  |  |        |  |  +--S12_S12_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|  |  |  |  |        |  +--| (100)
+|  |  |  |  |        |     +--S23_S23_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|  |  |  |  |     +--| (99)
+|  |  |  |  |     |  |  +--S17_S17_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|  |  |  |  |     |  +--| (100)
+|  |  |  |  |     |     |  +--S2_Cremastosperma_leiophyllum
+|  |  |  |  |     |     +--| (100)
+|  |  |  |  |     |        +--S3_S3_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|  |  |  |  +-----| (100)
+|  |  |  |        |     +--S19_S19_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|  |  |  |        |  +--| (100)
+|  |  |  |        |  |  +--S95_AGCGATAG-CAGGACGT_L002_R2_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|  |  |  |        +--| (100)
+|  |  |  |           |  +--S20_S20_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|  |  |  |           +--| (100)
+|  |  |  |              +--S4_S4_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|  |  +--| (100)
+|  |     |                 +---Cymbopetalum_torulosum_Blanco2264_2_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|  |     |              +--| (100)
+|  |     |              |  +----S14_S14_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|  |     +--------------| (100)
+|  |                    |   +--S22_S22_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|  |                    +---| (100)
+|  |                        +--S9_S9_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
++--| (100)
+|  |     +--Fusaea_peruviana_Abbott19140_2_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|  |  +--| (100)
+|  |  |  +--S6_S6_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|  +--| (100)
+|     +---S7_S7_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|
++---------S24_S24_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+
+
+Consensus tree in newick format: 
+
+(Artabotrys_hexapetalus_Abbott23913_2_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0152807540,(((((((((Asimina_obovata_Abbott23747_2_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0020081508,((Asimina_pygmaea_Abbott22471_2_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0008733260,Asimina_reticulata_Abbott22466_2_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0014361273)85:0.0007041776,Deeringothamnus_rugelii_Abbott22361_2_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0021567141)86:0.0007292632)45:0.0005478199,Asimina_tetramera_Abbott14312_2_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0021250953)100:0.0010777702,Asimina_parviflora_Abbott20528_2_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0020131507)100:0.0026247545,S89_AGCGATAG-TATAGCCT_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0036862753)100:0.0115083759,Disepalum_pulchrum_Chan192_2_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0176566063)100:0.0043367048,(((((Consensus_Annona_cherimola:0.0000010550,S86_Annona_cherimola:0.0000010550)100:0.0070160111,Raimondia_quinduensis_Abbott25012_2_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0092969401)100:0.0068152693,S87_TCTCGCGC-CAGGACGT_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0107755143)100:0.0041738200,S88_TCTCGCGC-GTACTGAC_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0159300698)100:0.0260124108,S5_S5_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0279041538)100:0.0024082834)100:0.0129633202,((S90_AGCGATAG-ATAGAGGC_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0085984921,(S92_AGCGATAG-GGCTCTGA_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0026949502,(S93_AGCGATAG-AGGCGAAG_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0015778028,S94_AGCGATAG-TAATCTTA_L002_R2_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0024551999)100:0.0008092541)100:0.0092075800)100:0.0129396094,(S91_AGCGATAG-CCTATCCT_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0092205910,S96_AGCGATAG-GTACTGAC_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0083186650)100:0.0141094282)100:0.0097429534)100:0.0146473099,((((((Cananga_kirkii:0.0031358074,Cananga_odorata_Abbott24307_2_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0028768290)100:0.0090009825,Deeringothamnus_pulchellus_Abbott23697_2_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.1086980854)100:0.0139185125,S21_S21_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0604290943)100:0.0330975574,S1_Anaxagorea_phaeocarpa_Mart._vel_aff.:0.0709463342)100:0.0052974538,((((S10_S10_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0132845759,(S11_S11_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0106500681,((S13_Oxandra_macrophylla:0.0076352534,S8_S8_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0059771062)92:0.0002979660,((S15_S15_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0056893882,S16_S16_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0065683456)100:0.0011245676,S18_S18_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0072128155)100:0.0003639501)100:0.0022595288)100:0.0026598763)53:0.0009958616,(S12_S12_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0044150098,S23_S23_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0049821066)100:0.0072326464)50:0.0005474708,(S17_S17_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0058447065,(S2_Cremastosperma_leiophyllum:0.0039111193,S3_S3_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0041236228)100:0.0070595626)100:0.0032995087)99:0.0013014520,((S19_S19_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0036128621,S95_AGCGATAG-CAGGACGT_L002_R2_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0041008203)100:0.0072764209,(S20_S20_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0038252827,S4_S4_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0028504433)100:0.0051542252)100:0.0084294745)100:0.0206717107)100:0.0097898352,((Cymbopetalum_torulosum_Blanco2264_2_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0142234154,S14_S14_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0158341856)100:0.0101065924,(S22_S22_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0071729167,S9_S9_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0089392268)100:0.0141341410)100:0.0481067642)100:0.0123968696)100:0.0014879974,((Fusaea_peruviana_Abbott19140_2_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0113349656,S6_S6_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0086592345)100:0.0067105757,S7_S7_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0129402350)100:0.0107693828)100:0.0041146805,S24_S24_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0320652081);
+
+ALISIM COMMAND
+--------------
+To simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis, you can use the following command:
+
+--alisim simulated_MSA -t phylo_output_aliview\plastome_tree.treefile -m "GTR{0.930713,2.21039,0.78843,0.577799,2.29647}+F{0.301041,0.200896,0.191668,0.306396}+G4{0.329217}" --length 201426
+
+To mimic the alignment used to produce this analysis, i.e. simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis *and* copying the same gap positions as the original alignment, you can use the following command:
+
+iqtree -s C:\Users\terez\OneDrive\Plocha\PP (Plantsies and Programming)\Annonaceae\aligned_plastomes_copy_aliview.fasta --alisim mimicked_MSA
+
+To simulate any number of alignments in either of the two commandlines above, use the --num-alignments options, for example mimic 100 alignments you would use the command line:
+
+iqtree -s C:\Users\terez\OneDrive\Plocha\PP (Plantsies and Programming)\Annonaceae\aligned_plastomes_copy_aliview.fasta --alisim mimicked_MSA --num-alignments 100
+
+For more information on using AliSim, please visit: www.iqtree.org/doc/AliSim
+
+TIME STAMP
+----------
+
+Date and time: Wed Jul 16 17:02:42 2025
+Total CPU time used: 3593.234375 seconds (0h:59m:53s)
+Total wall-clock time used: 1517.4596 seconds (0h:25m:17s)
+
