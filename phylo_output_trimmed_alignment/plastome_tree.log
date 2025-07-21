@@ -484,3 +484,331 @@ Optimizing NNI: done in 45.8731 secs using 284% CPU
 Optimizing NNI: done in 40.5071 secs using 235.9% CPU
 Iteration 110 / LogL: -1335928.122 / Time: 1h:39m:57s (1h:27m:1s left)
 Optimizing NNI: done in 42.1841 secs using 273.5% CPU
+
+******************************************************
+CHECKPOINT: Resuming analysis from phylo_output_trimmed_alignment\plastome_tree.ckp.gz
+
+IQ-TREE version 3.0.1 for Windows 64-bit built May  5 2025
+Developed by Bui Quang Minh, Thomas Wong, Nhan Ly-Trong, Huaiyan Ren
+Contributed by Lam-Tung Nguyen, Dominik Schrempf, Chris Bielow,
+Olga Chernomor, Michael Woodhams, Diep Thi Hoang, Heiko Schmidt
+
+Host:    DESKTOP-8KN957V (AVX2, FMA3, 15 GB RAM)
+Command: D:\iqtree\iqtree-3.0.1-Windows\bin\iqtree3.exe -s C:\Users\terez\OneDrive\Plocha\PP (Plantsies and Programming)\Annonaceae\trimmed_alignment_stricter.fasta -m GTR+G -nt 4 -bb 1000 -alrt 1000 -pre phylo_output_trimmed_alignment\plastome_tree
+Seed:    2726 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Mon Jul 21 17:05:33 2025
+Kernel:  AVX+FMA - 4 threads (4 CPU cores detected)
+
+WARNING: Command-line argument `C:\Users\terez\OneDrive\Plocha\PP (Plantsies and Programming)\Annonaceae\trimmed_alignment_stricter.fasta` differs from checkpoint `C:\Users\terez\OneDrive\Plocha\PP`
+WARNING: Command-line argument `-m` differs from checkpoint `(Plantsies`
+WARNING: Command-line argument `GTR+G` differs from checkpoint `and`
+WARNING: Command-line argument `-nt` differs from checkpoint `Programming)\Annonaceae\trimmed_alignment_stricter.fasta`
+WARNING: Command-line argument `4` differs from checkpoint `-m`
+WARNING: Command-line argument `-bb` differs from checkpoint `GTR+G`
+WARNING: Command-line argument `1000` differs from checkpoint `-nt`
+WARNING: Command-line argument `-alrt` differs from checkpoint `4`
+WARNING: Command-line argument `1000` differs from checkpoint `-bb`
+WARNING: Command-line argument `-pre` differs from checkpoint `1000`
+WARNING: Command-line argument `phylo_output_trimmed_alignment\plastome_tree` differs from checkpoint `-alrt`
+WARNING: Command-line differs from checkpoint!
+Reading alignment file C:\Users\terez\OneDrive\Plocha\PP (Plantsies and Programming)\Annonaceae\trimmed_alignment_stricter.fasta ... Fasta format detected
+Reading fasta file: done in 2.93683 secs using 45.76% CPU
+Alignment most likely contains DNA/RNA sequences
+Constructing alignment: done in 1.67848 secs using 59.58% CPU
+WARNING: 5095 sites contain only gaps or ambiguous characters.
+Alignment has 135 sequences with 219308 columns, 69258 distinct patterns
+45277 parsimony-informative, 25807 singleton sites, 148224 constant sites
+WARNING: Some sequence names are changed as follows:
+S10_R_assembled_to_Uvaria_afzelii_with_annotations_(incl_from_Dogma)_Copy_consensus -> S10_R_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+S11_R_assembled_to_Uvaria_afzelii_with_annotations_(incl_from_Dogma)_Copy_consensus -> S11_R_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+S12_R_assembled_to_Uvaria_afzelii_with_annotations_(incl_from_Dogma)_Copy_consensus_2 -> S12_R_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus_2
+S13_R_assembled_to_Uvaria_afzelii_with_annotations_(incl_from_Dogma)_Copy_consensus -> S13_R_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+S14_R_assembled_to_Uvaria_afzelii_with_annotations_(incl_from_Dogma)_Copy_consensus -> S14_R_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+S15_R_assembled_to_Uvaria_afzelii_with_annotations_(incl_from_Dogma)_Copy_consensus -> S15_R_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+S16_R_assembled_to_Uvaria_afzelii_with_annotations_(incl_from_Dogma)_Copy_consensus -> S16_R_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+S17_R_assembled_to_Uvaria_afzelii_with_annotations_(incl_from_Dogma)_Copy_consensus -> S17_R_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+S18_R_assembled_to_Uvaria_afzelii_with_annotations_(incl_from_Dogma)_Copy_consensus -> S18_R_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+S19_R_assembled_to_Uvaria_afzelii_with_annotations_(incl_from_Dogma)_Copy_consensus -> S19_R_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+S1_ATTACTCG-TATAGCCT_L001_R_001_assembled_to_Uvaria_afzelii_with_annotations_(incl_from_Dogma)_Copy_consensus_2 -> S1_ATTACTCG-TATAGCCT_L001_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus_2
+S20_R_assembled_to_Uvaria_afzelii_with_annotations_(incl_from_Dogma)_Copy_consensus -> S20_R_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+S21_R_assembled_to_Uvaria_afzelii_with_annotations_(incl_from_Dogma)_Copy_consensus -> S21_R_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+S22_R_assembled_to_Uvaria_afzelii_with_annotations_(incl_from_Dogma)_Copy_consensus -> S22_R_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+S23_R_assembled_to_Uvaria_afzelii_with_annotations_(incl_from_Dogma)_Copy_consensus_2 -> S23_R_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus_2
+S24_R_assembled_to_Uvaria_afzelii_with_annotations_(incl_from_Dogma)_Copy_consensus -> S24_R_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+S25_R_assembled_to_Uvaria_afzelii_with_annotations_(incl_from_Dogma)_Copy_consensus -> S25_R_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+S26_R_assembled_to_Uvaria_afzelii_with_annotations_(incl_from_Dogma)_Copy_consensus -> S26_R_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+S27_R_assembled_to_Uvaria_afzelii_with_annotations_(incl_from_Dogma)_Copy_consensus -> S27_R_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+S28_R_assembled_to_Uvaria_afzelii_with_annotations_(incl_from_Dogma)_Copy_consensus -> S28_R_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+S29_R_assembled_to_Uvaria_afzelii_with_annotations_(incl_from_Dogma)_Copy_consensus -> S29_R_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+S2_ATTACTCG-ATAGAGGC_L001_R_001_assembled_to_Uvaria_afzelii_with_annotations_(incl_from_Dogma)_Copy_consensus -> S2_ATTACTCG-ATAGAGGC_L001_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+S30_R_assembled_to_Uvaria_afzelii_with_annotations_(incl_from_Dogma)_Copy_consensus -> S30_R_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+S31_R_assembled_to_Uvaria_afzelii_with_annotations_(incl_from_Dogma)_Copy_consensus -> S31_R_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+S32_R_assembled_to_Uvaria_afzelii_with_annotations_(incl_from_Dogma)_Copy_consensus -> S32_R_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+S33_R_assembled_to_Uvaria_afzelii_with_annotations_(incl_from_Dogma)_Copy_consensus -> S33_R_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+S34_R_assembled_to_Uvaria_afzelii_with_annotations_(incl_from_Dogma)_Copy_consensus -> S34_R_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+S35_R_assembled_to_Uvaria_afzelii_with_annotations_(incl_from_Dogma)_Copy_consensus -> S35_R_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+S36_ATTCAGAA-GGCTCTGA_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations_(incl_from_Dogma)_Copy_consensus -> S36_ATTCAGAA-GGCTCTGA_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+S37_ATTCAGAA-AGGCGAAG_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations_(incl_from_Dogma)_Copy_consensus -> S37_ATTCAGAA-AGGCGAAG_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+S38_ATTCAGAA-TAATCTTA_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations_(incl_from_Dogma)_Copy_consensus -> S38_ATTCAGAA-TAATCTTA_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+S39_ATTCAGAA-CAGGACGT_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations_(incl_from_Dogma)_Copy_consensus -> S39_ATTCAGAA-CAGGACGT_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+S3_ATTACTCG-CCTATCCT_L001_R_001_assembled_to_Uvaria_afzelii_with_annotations_(incl_from_Dogma)_Copy_consensus -> S3_ATTACTCG-CCTATCCT_L001_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+S40_ATTCAGAA-GTACTGAC_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations_(incl_from_Dogma)_Copy_consensus -> S40_ATTCAGAA-GTACTGAC_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+S41_GAATTCGT-TATAGCCT_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations_(incl_from_Dogma)_Copy_consensus -> S41_GAATTCGT-TATAGCCT_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+S42_GAATTCGT-ATAGAGGC_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations_(incl_from_Dogma)_Copy_consensus -> S42_GAATTCGT-ATAGAGGC_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+S43_GAATTCGT-CCTATCCT_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations_(incl_from_Dogma)_Copy_consensus -> S43_GAATTCGT-CCTATCCT_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+S44_GAATTCGT-GGCTCTGA_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations_(incl_from_Dogma)_Copy_consensus -> S44_GAATTCGT-GGCTCTGA_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+S45_GAATTCGT-AGGCGAAG_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations_(incl_from_Dogma)_Copy_consensus -> S45_GAATTCGT-AGGCGAAG_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+S46_GAATTCGT-TAATCTTA_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations_(incl_from_Dogma)_Copy_consensus -> S46_GAATTCGT-TAATCTTA_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+S47_GAATTCGT-CAGGACGT_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations_(incl_from_Dogma)_Copy_consensus -> S47_GAATTCGT-CAGGACGT_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+S48_GAATTCGT-GTACTGAC_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations_(incl_from_Dogma)_Copy_consensus_2 -> S48_GAATTCGT-GTACTGAC_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus_2
+S49_CTGAAGCT-TATAGCCT_L001_R_001_assembled_to_Uvaria_afzelii_with_annotations_(incl_from_Dogma)_Copy_consensus_2 -> S49_CTGAAGCT-TATAGCCT_L001_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus_2
+S4_ATTACTCG-GGCTCTGA_L001_R_001_assembled_to_Uvaria_afzelii_with_annotations_(incl_from_Dogma)_Copy_consensus_2 -> S4_ATTACTCG-GGCTCTGA_L001_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus_2
+S50_CTGAAGCT-ATAGAGGC_L001_R_001_assembled_to_Uvaria_afzelii_with_annotations_(incl_from_Dogma)_Copy_consensus -> S50_CTGAAGCT-ATAGAGGC_L001_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+S51_CTGAAGCT-CCTATCCT_L001_R_001_assembled_to_Uvaria_afzelii_with_annotations_(incl_from_Dogma)_Copy_consensus -> S51_CTGAAGCT-CCTATCCT_L001_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+S52_CTGAAGCT-GGCTCTGA_L001_R_001_assembled_to_Uvaria_afzelii_with_annotations_(incl_from_Dogma)_Copy_consensus -> S52_CTGAAGCT-GGCTCTGA_L001_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+S53_CTGAAGCT-AGGCGAAG_L001_R_001_assembled_to_Uvaria_afzelii_with_annotations_(incl_from_Dogma)_Copy_consensus -> S53_CTGAAGCT-AGGCGAAG_L001_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+S54_CTGAAGCT-TAATCTTA_L001_R_001_assembled_to_Uvaria_afzelii_with_annotations_(incl_from_Dogma)_Copy_consensus -> S54_CTGAAGCT-TAATCTTA_L001_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+S55_CTGAAGCT-CAGGACGT_L001_R_001_assembled_to_Uvaria_afzelii_with_annotations_(incl_from_Dogma)_Copy_consensus -> S55_CTGAAGCT-CAGGACGT_L001_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+S56_CTGAAGCT-GTACTGAC_L001_R_001_assembled_to_Uvaria_afzelii_with_annotations_(incl_from_Dogma)_Copy_consensus -> S56_CTGAAGCT-GTACTGAC_L001_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+S57_TAATGCGC-TATAGCCT_L001_R_001_assembled_to_Uvaria_afzelii_with_annotations_(incl_from_Dogma)_Copy_consensus -> S57_TAATGCGC-TATAGCCT_L001_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+S58_TAATGCGC-ATAGAGGC_L001_R_001_assembled_to_Uvaria_afzelii_with_annotations_(incl_from_Dogma)_Copy_consensus -> S58_TAATGCGC-ATAGAGGC_L001_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+S59_TAATGCGC-CCTATCCT_L001_R_001_assembled_to_Uvaria_afzelii_with_annotations_(incl_from_Dogma)_Copy_consensus -> S59_TAATGCGC-CCTATCCT_L001_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+S5_R_assembled_to_Uvaria_afzelii_with_annotations_(incl_from_Dogma)_Copy_consensus -> S5_R_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+S60_TAATGCGC-GGCTCTGA_L001_R_001_assembled_to_Uvaria_afzelii_with_annotations_(incl_from_Dogma)_Copy_consensus -> S60_TAATGCGC-GGCTCTGA_L001_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+S61_TAATGCGC-AGGCGAAG_L001_R_001_assembled_to_Uvaria_afzelii_with_annotations_(incl_from_Dogma)_Copy_consensus -> S61_TAATGCGC-AGGCGAAG_L001_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+S62_TAATGCGC-TAATCTTA_L001_R_001_assembled_to_Uvaria_afzelii_with_annotations_(incl_from_Dogma)_Copy_consensus_2 -> S62_TAATGCGC-TAATCTTA_L001_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus_2
+S63_TAATGCGC-CAGGACGT_L001_R_001_assembled_to_Uvaria_afzelii_with_annotations_(incl_from_Dogma)_Copy_consensus -> S63_TAATGCGC-CAGGACGT_L001_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+S64_TAATGCGC-GTACTGAC_L001_R_001_assembled_to_Uvaria_afzelii_with_annotations_(incl_from_Dogma)_Copy_consensus -> S64_TAATGCGC-GTACTGAC_L001_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+S65_CGGCTATG-TATAGCCT_L001_R_001_assembled_to_Uvaria_afzelii_with_annotations_(incl_from_Dogma)_Copy_consensus_2 -> S65_CGGCTATG-TATAGCCT_L001_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus_2
+S66_CGGCTATG-ATAGAGGC_L001_R_001_assembled_to_Uvaria_afzelii_with_annotations_(incl_from_Dogma)_Copy_consensus -> S66_CGGCTATG-ATAGAGGC_L001_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+S67_CGGCTATG-CCTATCCT_L001_R_001_assembled_to_Uvaria_afzelii_with_annotations_(incl_from_Dogma)_Copy_consensus -> S67_CGGCTATG-CCTATCCT_L001_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+S68_CGGCTATG-GGCTCTGA_L001_R_001_assembled_to_Uvaria_afzelii_with_annotations_(incl_from_Dogma)_Copy_consensus -> S68_CGGCTATG-GGCTCTGA_L001_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+S69_CGGCTATG-AGGCGAAG_L001_R_001_assembled_to_Uvaria_afzelii_with_annotations_(incl_from_Dogma)_Copy_consensus -> S69_CGGCTATG-AGGCGAAG_L001_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+S6_R_assembled_to_Uvaria_afzelii_with_annotations_(incl_from_Dogma)_Copy_consensus -> S6_R_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+S70_CGGCTATG-TAATCTTA_L001_R_001_assembled_to_Uvaria_afzelii_with_annotations_(incl_from_Dogma)_Copy_consensus -> S70_CGGCTATG-TAATCTTA_L001_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+S71_CGGCTATG-CAGGACGT_L001_R_001_assembled_to_Uvaria_afzelii_with_annotations_(incl_from_Dogma)_Copy_consensus -> S71_CGGCTATG-CAGGACGT_L001_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+S72_CGGCTATG-GTACTGAC_L001_R_001_assembled_to_Uvaria_afzelii_with_annotations_(incl_from_Dogma)_Copy_consensus -> S72_CGGCTATG-GTACTGAC_L001_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+S73_TCCGCGAA-TATAGCCT_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations_(incl_from_Dogma)_Copy_consensus -> S73_TCCGCGAA-TATAGCCT_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+S74_TCCGCGAA-ATAGAGGC_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations_(incl_from_Dogma)_Copy_consensus -> S74_TCCGCGAA-ATAGAGGC_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+S75_TCCGCGAA-CCTATCCT_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations_(incl_from_Dogma)_Copy_consensus -> S75_TCCGCGAA-CCTATCCT_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+S76_TCCGCGAA-GGCTCTGA_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations_(incl_from_Dogma)_Copy_consensus_2 -> S76_TCCGCGAA-GGCTCTGA_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus_2
+S77_TCCGCGAA-AGGCGAAG_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations_(incl_from_Dogma)_Copy_consensus -> S77_TCCGCGAA-AGGCGAAG_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+S78_TCCGCGAA-TAATCTTA_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations_(incl_from_Dogma)_Copy_consensus -> S78_TCCGCGAA-TAATCTTA_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+S79_TCCGCGAA-CAGGACGT_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations_(incl_from_Dogma)_Copy_consensus -> S79_TCCGCGAA-CAGGACGT_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+S7_R_assembled_to_Uvaria_afzelii_with_annotations_(incl_from_Dogma)_Copy_consensus_2 -> S7_R_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus_2
+S80_TCCGCGAA-GTACTGAC_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations_(incl_from_Dogma)_Copy_consensus -> S80_TCCGCGAA-GTACTGAC_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+S81_TCTCGCGC-TATAGCCT_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations_(incl_from_Dogma)_Copy_consensus -> S81_TCTCGCGC-TATAGCCT_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+S82_TCTCGCGC-ATAGAGGC_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations_(incl_from_Dogma)_Copy_consensus_2 -> S82_TCTCGCGC-ATAGAGGC_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus_2
+S83_TCTCGCGC-CCTATCCT_L001_R_001_assembled_to_Uvaria_afzelii_with_annotations_(incl_from_Dogma)_Copy_consensus_2 -> S83_TCTCGCGC-CCTATCCT_L001_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus_2
+S84_TCTCGCGC-GGCTCTGA_L001_R_001_assembled_to_Uvaria_afzelii_with_annotations_(incl_from_Dogma)_Copy_consensus -> S84_TCTCGCGC-GGCTCTGA_L001_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+S85_TCTCGCGC-AGGCGAAG_L001_R_001_assembled_to_Uvaria_afzelii_with_annotations_(incl_from_Dogma)_Copy_consensus -> S85_TCTCGCGC-AGGCGAAG_L001_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+S8_R_assembled_to_Uvaria_afzelii_with_annotations_(incl_from_Dogma)_Copy_consensus_2 -> S8_R_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus_2
+S9_R_assembled_to_Uvaria_afzelii_with_annotations_(incl_from_Dogma)_Copy_consensus -> S9_R_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+Artabotrys_hexapetalus_Abbott23913_2_assembled_to_Uvaria_afzelii_with_annotations_(incl_from_Dogma)_Copy_consensus -> Artabotrys_hexapetalus_Abbott23913_2_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+Asimina_obovata_Abbott23747_2_assembled_to_Uvaria_afzelii_with_annotations_(incl_from_Dogma)_Copy_consensus -> Asimina_obovata_Abbott23747_2_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+Asimina_parviflora_Abbott20528_2_assembled_to_Uvaria_afzelii_with_annotations_(incl_from_Dogma)_Copy_consensus -> Asimina_parviflora_Abbott20528_2_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+Asimina_pygmaea_Abbott22471_2_assembled_to_Uvaria_afzelii_with_annotations_(incl_from_Dogma)_Copy_consensus -> Asimina_pygmaea_Abbott22471_2_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+Asimina_reticulata_Abbott22466_2_assembled_to_Uvaria_afzelii_with_annotations_(incl_from_Dogma)_Copy_consensus -> Asimina_reticulata_Abbott22466_2_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+Asimina_tetramera_Abbott14312_2_assembled_to_Uvaria_afzelii_with_annotations_(incl_from_Dogma)_Copy_consensus -> Asimina_tetramera_Abbott14312_2_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+Cananga_odorata_Abbott24307_2_assembled_to_Uvaria_afzelii_with_annotations_(incl_from_Dogma)_Copy_consensus -> Cananga_odorata_Abbott24307_2_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+Cymbopetalum_torulosum_Blanco2264_2_assembled_to_Uvaria_afzelii_with_annotations_(incl_from_Dogma)_Copy_consensus -> Cymbopetalum_torulosum_Blanco2264_2_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+Deeringothamnus_pulchellus_Abbott23697_2_assembled_to_Uvaria_afzelii_with_annotations_(incl_from_Dogma)_Copy_consensus -> Deeringothamnus_pulchellus_Abbott23697_2_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+Deeringothamnus_rugelii_Abbott22361_2_assembled_to_Uvaria_afzelii_with_annotations_(incl_from_Dogma)_Copy_consensus -> Deeringothamnus_rugelii_Abbott22361_2_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+Disepalum_pulchrum_Chan192_2_assembled_to_Uvaria_afzelii_with_annotations_(incl_from_Dogma)_Copy_consensus -> Disepalum_pulchrum_Chan192_2_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+Fusaea_peruviana_Abbott19140_2_assembled_to_Uvaria_afzelii_with_annotations_(incl_from_Dogma)_Copy_consensus -> Fusaea_peruviana_Abbott19140_2_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+Raimondia_quinduensis_Abbott25012_2_assembled_to_Uvaria_afzelii_with_annotations_(incl_from_Dogma)_Copy_consensus -> Raimondia_quinduensis_Abbott25012_2_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+S10_S10_R_001_assembled_to_Uvaria_afzelii_with_annotations_(incl_from_Dogma)_Copy_consensus -> S10_S10_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+S11_S11_R_001_assembled_to_Uvaria_afzelii_with_annotations_(incl_from_Dogma)_Copy_consensus -> S11_S11_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+S12_S12_R_001_assembled_to_Uvaria_afzelii_with_annotations_(incl_from_Dogma)_Copy_consensus -> S12_S12_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+S14_S14_R_001_assembled_to_Uvaria_afzelii_with_annotations_(incl_from_Dogma)_Copy_consensus -> S14_S14_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+S15_S15_R_001_assembled_to_Uvaria_afzelii_with_annotations_(incl_from_Dogma)_Copy_consensus -> S15_S15_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+S16_S16_R_001_assembled_to_Uvaria_afzelii_with_annotations_(incl_from_Dogma)_Copy_consensus -> S16_S16_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+S17_S17_R_001_assembled_to_Uvaria_afzelii_with_annotations_(incl_from_Dogma)_Copy_consensus -> S17_S17_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+S18_S18_R_001_assembled_to_Uvaria_afzelii_with_annotations_(incl_from_Dogma)_Copy_consensus -> S18_S18_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+S19_S19_R_001_assembled_to_Uvaria_afzelii_with_annotations_(incl_from_Dogma)_Copy_consensus -> S19_S19_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+S20_S20_R_001_assembled_to_Uvaria_afzelii_with_annotations_(incl_from_Dogma)_Copy_consensus -> S20_S20_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+S21_S21_R_001_assembled_to_Uvaria_afzelii_with_annotations_(incl_from_Dogma)_Copy_consensus -> S21_S21_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+S22_S22_R_001_assembled_to_Uvaria_afzelii_with_annotations_(incl_from_Dogma)_Copy_consensus -> S22_S22_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+S23_S23_R_001_assembled_to_Uvaria_afzelii_with_annotations_(incl_from_Dogma)_Copy_consensus -> S23_S23_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+S24_S24_R_001_assembled_to_Uvaria_afzelii_with_annotations_(incl_from_Dogma)_Copy_consensus -> S24_S24_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+S3_S3_R_001_assembled_to_Uvaria_afzelii_with_annotations_(incl_from_Dogma)_Copy_consensus -> S3_S3_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+S4_S4_R_001_assembled_to_Uvaria_afzelii_with_annotations_(incl_from_Dogma)_Copy_consensus -> S4_S4_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+S5_S5_R_001_assembled_to_Uvaria_afzelii_with_annotations_(incl_from_Dogma)_Copy_consensus -> S5_S5_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+S6_S6_R_001_assembled_to_Uvaria_afzelii_with_annotations_(incl_from_Dogma)_Copy_consensus -> S6_S6_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+S7_S7_R_001_assembled_to_Uvaria_afzelii_with_annotations_(incl_from_Dogma)_Copy_consensus -> S7_S7_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+S87_TCTCGCGC-CAGGACGT_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations_(incl_from_Dogma)_Copy_consensus -> S87_TCTCGCGC-CAGGACGT_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+S88_TCTCGCGC-GTACTGAC_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations_(incl_from_Dogma)_Copy_consensus -> S88_TCTCGCGC-GTACTGAC_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+S89_AGCGATAG-TATAGCCT_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations_(incl_from_Dogma)_Copy_consensus -> S89_AGCGATAG-TATAGCCT_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+S8_S8_R_001_assembled_to_Uvaria_afzelii_with_annotations_(incl_from_Dogma)_Copy_consensus -> S8_S8_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+S90_AGCGATAG-ATAGAGGC_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations_(incl_from_Dogma)_Copy_consensus -> S90_AGCGATAG-ATAGAGGC_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+S91_AGCGATAG-CCTATCCT_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations_(incl_from_Dogma)_Copy_consensus -> S91_AGCGATAG-CCTATCCT_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+S92_AGCGATAG-GGCTCTGA_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations_(incl_from_Dogma)_Copy_consensus -> S92_AGCGATAG-GGCTCTGA_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+S93_AGCGATAG-AGGCGAAG_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations_(incl_from_Dogma)_Copy_consensus -> S93_AGCGATAG-AGGCGAAG_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+S94_AGCGATAG-TAATCTTA_L002_R2_001_assembled_to_Uvaria_afzelii_with_annotations_(incl_from_Dogma)_Copy_consensus -> S94_AGCGATAG-TAATCTTA_L002_R2_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+S95_AGCGATAG-CAGGACGT_L002_R2_001_assembled_to_Uvaria_afzelii_with_annotations_(incl_from_Dogma)_Copy_consensus -> S95_AGCGATAG-CAGGACGT_L002_R2_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+S96_AGCGATAG-GTACTGAC_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations_(incl_from_Dogma)_Copy_consensus -> S96_AGCGATAG-GTACTGAC_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+S9_S9_R_001_assembled_to_Uvaria_afzelii_with_annotations_(incl_from_Dogma)_Copy_consensus -> S9_S9_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+
+                                                                                                                        Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 0.20124 secs using 163.1% CPU
+   1  S10_R_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus                                      25.28%    passed     90.89%
+   2  S11_R_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus                                      25.14%    passed     73.98%
+   3  S12_R_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus_2                                    26.27%    passed     55.71%
+   4  S13_R_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus                                      25.72%    passed     93.79%
+   5  S14_R_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus                                      25.08%    passed     98.17%
+   6  S15_R_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus                                      25.12%    passed     89.91%
+   7  S16_R_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus                                      25.49%    passed     88.22%
+   8  S17_R_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus                                      25.86%    passed     95.66%
+   9  S18_R_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus                                      25.51%    passed     99.25%
+  10  S19_R_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus                                      26.43%    passed     95.94%
+  11  S1_ATTACTCG-TATAGCCT_L001_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus_2          26.44%    passed     86.59%
+  12  S20_R_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus                                      25.56%    passed     96.73%
+  13  S21_R_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus                                      25.39%    passed     99.81%
+  14  S22_R_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus                                      25.39%    passed     94.28%
+  15  S23_R_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus_2                                    26.28%    passed     95.04%
+  16  S24_R_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus                                      25.27%    passed     81.51%
+  17  S25_R_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus                                      25.58%    passed     94.05%
+  18  S26_R_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus                                      25.39%    passed     76.20%
+  19  S27_R_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus                                      25.62%    passed     72.77%
+  20  S28_R_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus                                      26.44%    passed     84.50%
+  21  S29_R_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus                                      25.50%    passed     99.77%
+  22  S2_ATTACTCG-ATAGAGGC_L001_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus            26.03%    passed     95.72%
+  23  S30_R_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus                                      25.83%    passed     98.23%
+  24  S31_R_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus                                      25.72%    passed     92.16%
+  25  S32_R_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus                                      25.88%    passed     94.73%
+  26  S33_R_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus                                      25.50%    passed     99.38%
+  27  S34_R_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus                                      25.37%    passed     76.17%
+  28  S35_R_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus                                      25.64%    passed     97.96%
+  29  S36_ATTCAGAA-GGCTCTGA_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus           25.85%    passed     97.51%
+  30  S37_ATTCAGAA-AGGCGAAG_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus           25.36%    passed     84.33%
+  31  S38_ATTCAGAA-TAATCTTA_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus           25.31%    passed     94.96%
+  32  S39_ATTCAGAA-CAGGACGT_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus           25.34%    passed     96.51%
+  33  S3_ATTACTCG-CCTATCCT_L001_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus            25.68%    passed     91.23%
+  34  S40_ATTCAGAA-GTACTGAC_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus           26.43%    passed     75.99%
+  35  S41_GAATTCGT-TATAGCCT_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus           25.69%    passed     97.36%
+  36  S42_GAATTCGT-ATAGAGGC_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus           26.60%    passed     78.51%
+  37  S43_GAATTCGT-CCTATCCT_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus           25.41%    passed     98.83%
+  38  S44_GAATTCGT-GGCTCTGA_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus           25.89%    passed     92.36%
+  39  S45_GAATTCGT-AGGCGAAG_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus           25.64%    passed     99.17%
+  40  S46_GAATTCGT-TAATCTTA_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus           25.45%    passed     98.80%
+  41  S47_GAATTCGT-CAGGACGT_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus           25.44%    passed     99.04%
+  42  S48_GAATTCGT-GTACTGAC_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus_2         25.65%    passed     98.84%
+  43  S49_CTGAAGCT-TATAGCCT_L001_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus_2         26.26%    passed     61.10%
+  44  S4_ATTACTCG-GGCTCTGA_L001_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus_2          28.22%    failed      2.77%
+  45  S50_CTGAAGCT-ATAGAGGC_L001_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus           25.52%    passed     97.44%
+  46  S51_CTGAAGCT-CCTATCCT_L001_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus           25.18%    passed     65.61%
+  47  S52_CTGAAGCT-GGCTCTGA_L001_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus           25.45%    passed     79.24%
+  48  S53_CTGAAGCT-AGGCGAAG_L001_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus           25.45%    passed     97.53%
+  49  S54_CTGAAGCT-TAATCTTA_L001_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus           25.22%    passed     78.60%
+  50  S55_CTGAAGCT-CAGGACGT_L001_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus           26.42%    passed     80.40%
+  51  S56_CTGAAGCT-GTACTGAC_L001_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus           25.65%    passed     92.91%
+  52  S57_TAATGCGC-TATAGCCT_L001_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus           25.67%    passed     99.60%
+  53  S58_TAATGCGC-ATAGAGGC_L001_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus           27.68%    passed     93.25%
+  54  S59_TAATGCGC-CCTATCCT_L001_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus           25.44%    passed     94.91%
+  55  S5_R_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus                                       25.66%    passed     94.37%
+  56  S60_TAATGCGC-GGCTCTGA_L001_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus           25.67%    passed     93.94%
+  57  S61_TAATGCGC-AGGCGAAG_L001_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus           25.67%    passed     99.08%
+  58  S62_TAATGCGC-TAATCTTA_L001_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus_2         26.56%    passed     59.62%
+  59  S63_TAATGCGC-CAGGACGT_L001_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus           25.64%    passed     83.86%
+  60  S64_TAATGCGC-GTACTGAC_L001_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus           25.09%    passed     98.88%
+  61  S65_CGGCTATG-TATAGCCT_L001_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus_2         26.15%    passed     65.60%
+  62  S66_CGGCTATG-ATAGAGGC_L001_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus           26.47%    passed     80.14%
+  63  S67_CGGCTATG-CCTATCCT_L001_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus           25.85%    passed     88.86%
+  64  S68_CGGCTATG-GGCTCTGA_L001_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus           26.54%    passed     73.06%
+  65  S69_CGGCTATG-AGGCGAAG_L001_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus           25.18%    passed     89.82%
+  66  S6_R_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus                                       26.01%    passed     99.70%
+  67  S70_CGGCTATG-TAATCTTA_L001_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus           25.53%    passed     93.76%
+  68  S71_CGGCTATG-CAGGACGT_L001_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus           25.71%    passed     94.52%
+  69  S72_CGGCTATG-GTACTGAC_L001_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus           25.40%    passed     99.69%
+  70  S73_TCCGCGAA-TATAGCCT_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus           25.48%    passed     98.34%
+  71  S74_TCCGCGAA-ATAGAGGC_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus           25.50%    passed     97.85%
+  72  S75_TCCGCGAA-CCTATCCT_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus           25.55%    passed     99.28%
+  73  S76_TCCGCGAA-GGCTCTGA_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus_2         29.21%    passed     24.18%
+  74  S77_TCCGCGAA-AGGCGAAG_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus           26.05%    passed     97.26%
+  75  S78_TCCGCGAA-TAATCTTA_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus           24.98%    passed     97.35%
+  76  S79_TCCGCGAA-CAGGACGT_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus           25.59%    passed     67.67%
+  77  S7_R_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus_2                                     26.85%    passed     22.56%
+  78  S80_TCCGCGAA-GTACTGAC_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus           26.06%    passed     95.69%
+  79  S81_TCTCGCGC-TATAGCCT_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus           26.94%    passed     98.51%
+  80  S82_TCTCGCGC-ATAGAGGC_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus_2         27.40%    passed     93.84%
+  81  S83_TCTCGCGC-CCTATCCT_L001_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus_2         33.74%    failed      0.00%
+  82  S84_TCTCGCGC-GGCTCTGA_L001_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus           25.57%    passed     87.80%
+  83  S85_TCTCGCGC-AGGCGAAG_L001_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus           27.90%    failed      0.01%
+  84  S8_R_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus_2                                     26.19%    passed     77.43%
+  85  S9_R_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus                                       25.58%    passed     98.67%
+  86  Artabotrys_hexapetalus_Abbott23913_2_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus       24.98%    passed     44.47%
+  87  Asimina_obovata_Abbott23747_2_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus              25.01%    passed     44.01%
+  88  Asimina_parviflora_Abbott20528_2_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus           25.19%    passed     59.66%
+  89  Asimina_pygmaea_Abbott22471_2_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus              25.06%    passed     55.30%
+  90  Asimina_reticulata_Abbott22466_2_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus           25.01%    passed     32.57%
+  91  Asimina_tetramera_Abbott14312_2_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus            24.98%    passed     43.63%
+  92  Cananga_kirkii                                                                                                           25.60%    passed     80.42%
+  93  Cananga_odorata_Abbott24307_2_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus              27.08%    passed     13.05%
+  94  Consensus_Annona_cherimola                                                                                               25.51%    failed      0.00%
+  95  Cymbopetalum_torulosum_Blanco2264_2_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus        26.60%    passed     39.51%
+  96  Deeringothamnus_pulchellus_Abbott23697_2_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus   84.77%    failed      0.00%
+  97  Deeringothamnus_rugelii_Abbott22361_2_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus      24.93%    passed     25.62%
+  98  Disepalum_pulchrum_Chan192_2_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus               24.96%    passed     91.88%
+  99  Fusaea_peruviana_Abbott19140_2_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus             27.48%    passed     92.50%
+ 100  Raimondia_quinduensis_Abbott25012_2_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus        26.22%    failed      0.00%
+ 101  S1_Anaxagorea_phaeocarpa_Mart._vel_aff.                                                                                  26.93%    passed     39.11%
+ 102  S10_S10_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus                              27.13%    passed     73.90%
+ 103  S11_S11_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus                              27.12%    failed      4.29%
+ 104  S12_S12_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus                              26.76%    passed     90.46%
+ 105  S13_Oxandra_macrophylla                                                                                                  25.89%    passed     80.98%
+ 106  S14_S14_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus                              26.01%    passed     15.08%
+ 107  S15_S15_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus                              27.10%    passed     53.18%
+ 108  S16_S16_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus                              27.11%    passed     89.24%
+ 109  S17_S17_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus                              26.76%    passed     83.45%
+ 110  S18_S18_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus                              26.75%    passed     78.13%
+ 111  S19_S19_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus                              27.46%    passed     59.67%
+ 112  S2_Cremastosperma_leiophyllum                                                                                            26.06%    passed     92.15%
+ 113  S20_S20_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus                              27.61%    passed     61.84%
+ 114  S21_S21_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus                              49.19%    passed     73.75%
+ 115  S22_S22_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus                              25.71%    passed     29.98%
+ 116  S23_S23_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus                              27.51%    passed     58.59%
+ 117  S24_S24_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus                              25.35%    passed     92.71%
+ 118  S3_S3_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus                                28.19%    passed     65.77%
+ 119  S4_S4_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus                                26.91%    passed     94.17%
+ 120  S5_S5_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus                                25.96%    failed      0.48%
+ 121  S6_S6_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus                                25.37%    passed     95.76%
+ 122  S7_S7_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus                                25.46%    passed     68.06%
+ 123  S86_Annona_cherimola                                                                                                     25.51%    failed      0.00%
+ 124  S87_TCTCGCGC-CAGGACGT_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus           26.21%    failed      0.00%
+ 125  S88_TCTCGCGC-GTACTGAC_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus           26.06%    failed      0.00%
+ 126  S89_AGCGATAG-TATAGCCT_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus           25.37%    passed     93.43%
+ 127  S8_S8_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus                                26.68%    passed     74.18%
+ 128  S90_AGCGATAG-ATAGAGGC_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus           24.95%    passed     18.32%
+ 129  S91_AGCGATAG-CCTATCCT_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus           24.98%    passed     91.62%
+ 130  S92_AGCGATAG-GGCTCTGA_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus           24.92%    passed     96.24%
+ 131  S93_AGCGATAG-AGGCGAAG_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus           25.33%    passed     83.11%
+ 132  S94_AGCGATAG-TAATCTTA_L002_R2_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus          25.44%    passed     92.52%
+ 133  S95_AGCGATAG-CAGGACGT_L002_R2_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus          27.77%    passed     83.84%
+ 134  S96_AGCGATAG-GTACTGAC_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus           24.49%    passed     84.07%
+ 135  S9_S9_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus                                26.02%    passed      6.27%
+WARNING: 1 sequences contain more than 50% gaps/ambiguity
+****  TOTAL                                                                                                                    26.61%  11 sequences failed composition chi2 test (p-value<5%; df=3)
+NOTE: minimal branch length is reduced to 0.000000455980 for long alignment
+NOTE: S86_Annona_cherimola is identical to Consensus_Annona_cherimola but kept for subsequent analysis
+Checking for duplicate sequences: done in 0.240173 secs using 143.1% CPU
+
+CHECKPOINT: Initial tree restored
+Generating 1000 samples for ultrafast bootstrap (seed: 2726)...
+CHECKPOINT: 1000 UFBoot trees and 2 UFBootSplits restored
+
+NOTE: 1476 MB RAM (1 GB) is required!
+CHECKPOINT: Model parameters restored, LogL: -1335647.309
+Wrote distance file to... 
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+CHECKPOINT: Candidate tree set restored, best LogL: -1335647.309
+Finish initializing candidate tree set (20)
+Current best tree score: -1335647.309 / CPU time: 0.000
+Number of iterations: 111
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Optimizing NNI: done in 64.9442 secs using 150.8% CPU
+Optimizing NNI: done in 52.0489 secs using 156% CPU
+Optimizing NNI: done in 64.3113 secs using 154.4% CPU
