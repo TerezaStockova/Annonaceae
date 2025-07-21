@@ -385,3 +385,46 @@ Optimizing NNI: done in 60.122 secs using 186.2% CPU
 Optimizing NNI: done in 67.6762 secs using 146.5% CPU
 Iteration 40 / LogL: -1297966.002 / Time: 1h:8m:21s (2h:25m:16s left)
 Optimizing NNI: done in 54.2421 secs using 203.7% CPU
+Optimizing NNI: done in 42.3411 secs using 236.3% CPU
+Optimizing NNI: done in 37.0275 secs using 225.7% CPU
+Optimizing NNI: done in 42.1841 secs using 235.1% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 44: -1297579.524
+Optimizing NNI: done in 42.8607 secs using 240.3% CPU
+Optimizing NNI: done in 43.7345 secs using 231.1% CPU
+Optimizing NNI: done in 47.6802 secs using 219.5% CPU
+Optimizing NNI: done in 51.0633 secs using 242.6% CPU
+Optimizing NNI: done in 55.6538 secs using 187.3% CPU
+Optimizing NNI: done in 47.006 secs using 234% CPU
+Iteration 50 / LogL: -1297845.580 / Time: 1h:16m:36s (2h:26m:45s left)
+Log-likelihood cutoff on original alignment: -1297970.177
+Optimizing NNI: done in 46.2017 secs using 251.2% CPU
+Optimizing NNI: done in 40.9014 secs using 278.9% CPU
+Optimizing NNI: done in 40.8081 secs using 256.9% CPU
+Optimizing NNI: done in 39.2743 secs using 278% CPU
+Optimizing NNI: done in 55.6728 secs using 250.7% CPU
+Optimizing NNI: done in 39.3722 secs using 236.5% CPU
+Optimizing NNI: done in 40.3295 secs using 241.6% CPU
+Optimizing NNI: done in 55.541 secs using 231.6% CPU
+Optimizing NNI: done in 46.4125 secs using 220.5% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 59: -1297578.006
+Optimizing NNI: done in 37.9214 secs using 303.4% CPU
+Iteration 60 / LogL: -1297599.621 / Time: 1h:24m:20s (2h:21m:21s left)
+Optimizing NNI: done in 33.297 secs using 288% CPU
+Optimizing NNI: done in 36.3359 secs using 242.6% CPU
+Optimizing NNI: done in 39.054 secs using 230.7% CPU
+Optimizing NNI: done in 44.6825 secs using 235% CPU
+Optimizing NNI: done in 32.9039 secs using 302.7% CPU
+Optimizing NNI: done in 34.1012 secs using 287.1% CPU
+Optimizing NNI: done in 34.2453 secs using 288.4% CPU
+Optimizing NNI: done in 36.5351 secs using 264.6% CPU
+Optimizing NNI: done in 42.0851 secs using 266.6% CPU
+Optimizing NNI: done in 40.9321 secs using 277.4% CPU
+Iteration 70 / LogL: -1297973.511 / Time: 1h:30m:40s (1h:56m:49s left)
+Optimizing NNI: done in 38.1258 secs using 273.4% CPU
+Optimizing NNI: done in 40.3676 secs using 251.5% CPU
+Optimizing NNI: done in 38.3381 secs using 239.9% CPU
+Optimizing NNI: done in 37.5523 secs using 251.9% CPU
+Optimizing NNI: done in 38.3331 secs using 290.6% CPU
+Optimizing NNI: done in 40.2507 secs using 261.3% CPU
