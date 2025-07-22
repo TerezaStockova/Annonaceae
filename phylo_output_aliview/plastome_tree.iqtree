@@ -1,0 +1,672 @@
+IQ-TREE 3.0.1 built May  5 2025
+
+Input file name: C:\Users\terez\OneDrive\Plocha\PP (Plantsies and Programming)\Annonaceae\aligned_plastomes_copy_aliview.fasta
+Type of analysis: tree reconstruction + ultrafast bootstrap (1000 replicates)
+Random seed number: 848375
+
+REFERENCES
+----------
+
+To cite IQ-TREE 3 please use:
+
+Thomas K.F. Wong, Nhan Ly-Trong, Huaiyan Ren, Hector Banos, Andrew J. Roger,
+Edward Susko, Chris Bielow, Nicola De Maio, Nick Goldman, Matthew W. Hahn,
+Gavin Huttley, Robert Lanfear, Bui Quang Minh (2025)
+IQ-TREE 3: Phylogenomic Inference Software using Complex Evolutionary Models.
+Submitted.
+
+Please also cite the following paper(s) for the feature(s) that you used:
+
+Since you used ultrafast bootstrap (UFBoot) please also cite: 
+
+Diep Thi Hoang, Olga Chernomor, Arndt von Haeseler, Bui Quang Minh,
+and Le Sy Vinh (2018) UFBoot2: Improving the ultrafast bootstrap
+approximation. Mol. Biol. Evol., 35:518–522.
+https://doi.org/10.1093/molbev/msx281
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 135 sequences with 216709 nucleotide sites
+Number of constant sites: 146811 (= 67.7457% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 146811 (= 67.7457% of all sites)
+Number of parsimony informative sites: 44545
+Number of distinct site patterns: 67852
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: GTR+F+G4
+
+Rate parameter R:
+
+  A-C: 0.9468
+  A-G: 2.0842
+  A-T: 0.9559
+  C-G: 0.5569
+  C-T: 2.1411
+  G-T: 1.0000
+
+State frequencies: (empirical counts from alignment)
+
+  pi(A) = 0.3012
+  pi(C) = 0.2009
+  pi(G) = 0.191
+  pi(T) = 0.3069
+
+Rate matrix Q:
+
+  A   -0.9231    0.1992    0.4168    0.3071
+  C    0.2986    -1.098    0.1114    0.6879
+  G    0.6573    0.1171    -1.096    0.3213
+  T    0.3015    0.4504       0.2   -0.9518
+
+Model of rate heterogeneity: Gamma with 4 categories
+Gamma shape alpha: 0.2267
+
+ Category  Relative_rate  Proportion
+  1         0.001198       0.25
+  2         0.05047        0.25
+  3         0.4498         0.25
+  4         3.499          0.25
+Relative rates are computed as MEAN of the portion of the Gamma distribution falling in the category.
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -1297468.2050 (s.e. 4385.9581)
+Unconstrained log-likelihood (without tree): -1661651.7091
+Number of free parameters (#branches + #model parameters): 276
+Akaike information criterion (AIC) score: 2595488.4100
+Corrected Akaike information criterion (AICc) score: 2595489.1164
+Bayesian information criterion (BIC) score: 2598327.4317
+
+Total tree length (sum of branch lengths): 3.6648
+Sum of internal branch lengths: 1.4268 (38.9315% of tree length)
+
+NOTE: Tree is UNROOTED although outgroup taxon 'S10_R_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus' is drawn at root
+Numbers in parentheses are SH-aLRT support (%) / ultrafast bootstrap support (%)
+
++--S10_R_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|
+|                          +--S11_R_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|                       +--| (100/100)
+|                       |  +--S6_R_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|                    +--| (100/100)
+|                    |  +--S69_CGGCTATG-AGGCGAAG_L001_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|                 +--| (100/100)
+|                 |  |                       +--S12_R_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus_2
+|                 |  |                    +--| (100/100)
+|                 |  |                    |  +--S38_ATTCAGAA-TAATCTTA_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|                 |  |                 +--| (93.1/64)
+|                 |  |                 |  |           +--S14_R_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|                 |  |                 |  |        +--| (82/99)
+|                 |  |                 |  |        |  +--S3_ATTACTCG-CCTATCCT_L001_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|                 |  |                 |  |     +--| (100/100)
+|                 |  |                 |  |     |  +--S34_R_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|                 |  |                 |  |  +--| (5.1/32)
+|                 |  |                 |  |  |  |  +--S48_GAATTCGT-GTACTGAC_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus_2
+|                 |  |                 |  |  |  +--| (100/100)
+|                 |  |                 |  |  |     +--S54_CTGAAGCT-TAATCTTA_L001_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|                 |  |                 |  +--| (100/65)
+|                 |  |                 |     |     +--S2_ATTACTCG-ATAGAGGC_L001_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|                 |  |                 |     |  +--| (99.6/94)
+|                 |  |                 |     |  |  +--S50_CTGAAGCT-ATAGAGGC_L001_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|                 |  |                 |     +--| (99.9/64)
+|                 |  |                 |        |  +--S52_CTGAAGCT-GGCTCTGA_L001_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|                 |  |                 |        +--| (99.8/100)
+|                 |  |                 |           +--S68_CGGCTATG-GGCTCTGA_L001_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|                 |  |              +--| (100/100)
+|                 |  |              |  +--S41_GAATTCGT-TATAGCCT_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|                 |  |           +--| (97.9/98)
+|                 |  |           |  +--S63_TAATGCGC-CAGGACGT_L001_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|                 |  |        +--| (99.6/98)
+|                 |  |        |  +--S71_CGGCTATG-CAGGACGT_L001_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|                 |  |     +--| (100/100)
+|                 |  |     |  |     +--S40_ATTCAGAA-GTACTGAC_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|                 |  |     |  |  +--| (100/100)
+|                 |  |     |  |  |  +--S77_TCCGCGAA-AGGCGAAG_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|                 |  |     |  +--| (99.2/100)
+|                 |  |     |     |     +--S64_TAATGCGC-GTACTGAC_L001_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|                 |  |     |     |  +--| (94.2/99)
+|                 |  |     |     |  |  |  +--S72_CGGCTATG-GTACTGAC_L001_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|                 |  |     |     |  |  +--| (91.8/100)
+|                 |  |     |     |  |     +--S73_TCCGCGAA-TATAGCCT_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|                 |  |     |     +--| (100/100)
+|                 |  |     |        +--S78_TCCGCGAA-TAATCTTA_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|                 |  |  +--| (100/100)
+|                 |  |  |  |                                +--S58_TAATGCGC-ATAGAGGC_L001_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|                 |  |  |  |                             +--| (100/100)
+|                 |  |  |  |                             |  +--S23_S23_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|                 |  |  |  |                          +--| (100/100)
+|                 |  |  |  |                          |  +--S12_S12_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|                 |  |  |  |                       +--| (100/100)
+|                 |  |  |  |                       |  |  +--S11_S11_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|                 |  |  |  |                       |  +--| (100/100)
+|                 |  |  |  |                       |     |     +--S13_Oxandra_macrophylla
+|                 |  |  |  |                       |     |  +--| (14.2/70)
+|                 |  |  |  |                       |     |  |  |     +--S15_S15_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|                 |  |  |  |                       |     |  |  |  +--| (100/100)
+|                 |  |  |  |                       |     |  |  |  |  +--S16_S16_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|                 |  |  |  |                       |     |  |  +--| (100/100)
+|                 |  |  |  |                       |     |  |     +--S18_S18_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|                 |  |  |  |                       |     +--| (100/100)
+|                 |  |  |  |                       |        +--S8_S8_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|                 |  |  |  |                    +--| (100/100)
+|                 |  |  |  |                    |  |  +--S10_S10_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|                 |  |  |  |                    |  +--| (100/100)
+|                 |  |  |  |                    |     |  +--S17_S17_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|                 |  |  |  |                    |     +--| (100/100)
+|                 |  |  |  |                    |        |  +--S2_Cremastosperma_leiophyllum
+|                 |  |  |  |                    |        +--| (100/100)
+|                 |  |  |  |                    |           +--S3_S3_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|                 |  |  |  |                +---| (100/100)
+|                 |  |  |  |                |   |     +--S82_TCTCGCGC-ATAGAGGC_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus_2
+|                 |  |  |  |                |   |  +--| (100/100)
+|                 |  |  |  |                |   |  |  |  +--S20_S20_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|                 |  |  |  |                |   |  |  +--| (100/100)
+|                 |  |  |  |                |   |  |     +--S4_S4_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|                 |  |  |  |                |   +--| (100/100)
+|                 |  |  |  |                |      |  +--S19_S19_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|                 |  |  |  |                |      +--| (100/100)
+|                 |  |  |  |                |         +--S95_AGCGATAG-CAGGACGT_L002_R2_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|                 |  |  |  |             +--| (100/100)
+|                 |  |  |  |             |  |                 +--S76_TCCGCGAA-GGCTCTGA_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus_2
+|                 |  |  |  |             |  |  +--------------| (100/100)
+|                 |  |  |  |             |  |  |              +--S1_Anaxagorea_phaeocarpa_Mart._vel_aff.
+|                 |  |  |  |             |  +--| (100/100)
+|                 |  |  |  |             |     |           +--Cananga_kirkii
+|                 |  |  |  |             |     |        +--| (100/100)
+|                 |  |  |  |             |     |        |  +--Cananga_odorata_Abbott24307_2_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|                 |  |  |  |             |     |     +--| (100/100)
+|                 |  |  |  |             |     |     |  +-------------------------------Deeringothamnus_pulchellus_Abbott23697_2_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|                 |  |  |  |             |     +-----| (100/100)
+|                 |  |  |  |             |           +---------------S21_S21_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|                 |  |  |  |          +--| (100/100)
+|                 |  |  |  |          |  |             +--Cymbopetalum_torulosum_Blanco2264_2_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|                 |  |  |  |          |  |          +--| (100/100)
+|                 |  |  |  |          |  |          |  +--S14_S14_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|                 |  |  |  |          |  +----------| (100/100)
+|                 |  |  |  |          |             |  +--S22_S22_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|                 |  |  |  |          |             +--| (100/100)
+|                 |  |  |  |          |                +--S9_S9_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|                 |  |  |  |  +-------| (100/100)
+|                 |  |  |  |  |       |                      +--S85_TCTCGCGC-AGGCGAAG_L001_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|                 |  |  |  |  |       |                   +--| (100/100)
+|                 |  |  |  |  |       |                   |  |     +**Consensus_Annona_cherimola
+|                 |  |  |  |  |       |                   |  |  +--| (100/100)
+|                 |  |  |  |  |       |                   |  |  |  +**S86_Annona_cherimola
+|                 |  |  |  |  |       |                   |  +--| (100/100)
+|                 |  |  |  |  |       |                   |     +--Raimondia_quinduensis_Abbott25012_2_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|                 |  |  |  |  |       |                +--| (100/100)
+|                 |  |  |  |  |       |                |  +--S87_TCTCGCGC-CAGGACGT_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|                 |  |  |  |  |       |           +----| (100/100)
+|                 |  |  |  |  |       |           |    +--S88_TCTCGCGC-GTACTGAC_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|                 |  |  |  |  |       |        +--| (100/100)
+|                 |  |  |  |  |       |        |  +-----S5_S5_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|                 |  |  |  |  |       |     +--| (100/100)
+|                 |  |  |  |  |       |     |  |           +--Asimina_obovata_Abbott23747_2_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|                 |  |  |  |  |       |     |  |        +--| (100/100)
+|                 |  |  |  |  |       |     |  |        |  |        +--Asimina_pygmaea_Abbott22471_2_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|                 |  |  |  |  |       |     |  |        |  |     +--| (87.8/99)
+|                 |  |  |  |  |       |     |  |        |  |     |  +--Asimina_reticulata_Abbott22466_2_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|                 |  |  |  |  |       |     |  |        |  |  +--| (67.8/96)
+|                 |  |  |  |  |       |     |  |        |  |  |  +--Deeringothamnus_rugelii_Abbott22361_2_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|                 |  |  |  |  |       |     |  |        |  +--| (42.1/94)
+|                 |  |  |  |  |       |     |  |        |     +--Asimina_tetramera_Abbott14312_2_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|                 |  |  |  |  |       |     |  |     +--| (100/100)
+|                 |  |  |  |  |       |     |  |     |  +--Asimina_parviflora_Abbott20528_2_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|                 |  |  |  |  |       |     |  |  +--| (100/100)
+|                 |  |  |  |  |       |     |  |  |  +--S89_AGCGATAG-TATAGCCT_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|                 |  |  |  |  |       |     |  +--| (100/100)
+|                 |  |  |  |  |       |     |     +--Disepalum_pulchrum_Chan192_2_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|                 |  |  |  |  |       |  +--| (100/100)
+|                 |  |  |  |  |       |  |  |     +--S90_AGCGATAG-ATAGAGGC_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|                 |  |  |  |  |       |  |  |  +--| (100/100)
+|                 |  |  |  |  |       |  |  |  |  |  +--S92_AGCGATAG-GGCTCTGA_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|                 |  |  |  |  |       |  |  |  |  +--| (100/100)
+|                 |  |  |  |  |       |  |  |  |     |  +--S93_AGCGATAG-AGGCGAAG_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|                 |  |  |  |  |       |  |  |  |     +--| (99.4/100)
+|                 |  |  |  |  |       |  |  |  |        +--S94_AGCGATAG-TAATCTTA_L002_R2_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|                 |  |  |  |  |       |  |  +--| (100/100)
+|                 |  |  |  |  |       |  |     |  +--S91_AGCGATAG-CCTATCCT_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|                 |  |  |  |  |       |  |     +--| (100/100)
+|                 |  |  |  |  |       |  |        +--S96_AGCGATAG-GTACTGAC_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|                 |  |  |  |  |       +--| (99.8/100)
+|                 |  |  |  |  |          |     +--Artabotrys_hexapetalus_Abbott23913_2_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|                 |  |  |  |  |          |  +--| (100/100)
+|                 |  |  |  |  |          |  |  +------S24_S24_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|                 |  |  |  |  |          +--| (82.9/96)
+|                 |  |  |  |  |             |     +--Fusaea_peruviana_Abbott19140_2_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|                 |  |  |  |  |             |  +--| (100/100)
+|                 |  |  |  |  |             |  |  +--S6_S6_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|                 |  |  |  |  |             +--| (100/100)
+|                 |  |  |  |  |                +--S7_S7_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|                 |  |  |  +--| (100/100)
+|                 |  |  |     |  +--S5_R_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|                 |  |  |     +--| (100/100)
+|                 |  |  |        +--S84_TCTCGCGC-GGCTCTGA_L001_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|                 |  +--| (100/100)
+|                 |     +--S9_R_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|              +--| (99.8/92)
+|              |  |           +--S15_R_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|              |  |        +--| (100/89)
+|              |  |        |  +--S27_R_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|              |  |     +--| (100/89)
+|              |  |     |  |  +--S21_R_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|              |  |     |  +--| (96.1/85)
+|              |  |     |     +--S43_GAATTCGT-CCTATCCT_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|              |  |  +--| (99.9/88)
+|              |  |  |  |  +--S44_GAATTCGT-GGCTCTGA_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|              |  |  |  +--| (97.4/89)
+|              |  |  |     +--S49_CTGAAGCT-TATAGCCT_L001_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus_2
+|              |  +--| (100/92)
+|              |     +--S53_CTGAAGCT-AGGCGAAG_L001_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|           +--| (93.8/90)
+|           |  +--S67_CGGCTATG-CCTATCCT_L001_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|        +--| (100/92)
+|        |  |     +--S33_R_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|        |  |  +--| (83/100)
+|        |  |  |  +--S65_CGGCTATG-TATAGCCT_L001_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus_2
+|        |  +--| (100/100)
+|        |     +--S74_TCCGCGAA-ATAGAGGC_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|     +--| (96.7/72)
+|     |  |           +--S16_R_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|     |  |        +--| (99.9/89)
+|     |  |        |  |  +--S20_R_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|     |  |        |  +--| (100/100)
+|     |  |        |     +--S37_ATTCAGAA-AGGCGAAG_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|     |  |     +--| (71.9/65)
+|     |  |     |  |  +--S24_R_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|     |  |     |  +--| (100/100)
+|     |  |     |     +--S45_GAATTCGT-AGGCGAAG_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|     |  |  +--| (98.2/71)
+|     |  |  |  |              +--S22_R_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|     |  |  |  |           +--| (88/91)
+|     |  |  |  |           |  +--S51_CTGAAGCT-CCTATCCT_L001_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|     |  |  |  |        +--| (92.2/84)
+|     |  |  |  |        |  +--S81_TCTCGCGC-TATAGCCT_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|     |  |  |  |     +--| (70.1/84)
+|     |  |  |  |     |  +--S83_TCTCGCGC-CCTATCCT_L001_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus_2
+|     |  |  |  |  +--| (93.6/83)
+|     |  |  |  |  |  |     +--S26_R_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|     |  |  |  |  |  |  +--| (98.7/90)
+|     |  |  |  |  |  |  |  +--S62_TAATGCGC-TAATCTTA_L001_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus_2
+|     |  |  |  |  |  +--| (99.9/90)
+|     |  |  |  |  |     |  +--S32_R_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|     |  |  |  |  |     +--| (99.9/100)
+|     |  |  |  |  |        +--S61_TAATGCGC-AGGCGAAG_L001_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|     |  |  |  +--| (65.2/78)
+|     |  |  |     |     +--S25_R_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|     |  |  |     |  +--| (98.7/85)
+|     |  |  |     |  |  |  +--S39_ATTCAGAA-CAGGACGT_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|     |  |  |     |  |  +--| (78.2/96)
+|     |  |  |     |  |     +--S46_GAATTCGT-TAATCTTA_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|     |  |  |     +--| (100/96)
+|     |  |  |        |  +--S66_CGGCTATG-ATAGAGGC_L001_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|     |  |  |        +--| (57.7/81)
+|     |  |  |           +--S80_TCCGCGAA-GTACTGAC_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|     |  +--| (100/72)
+|     |     |           +--S23_R_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus_2
+|     |     |        +--| (95.7/63)
+|     |     |        |  +--S8_R_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus_2
+|     |     |     +--| (99.9/88)
+|     |     |     |  |     +--S56_CTGAAGCT-GTACTGAC_L001_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|     |     |     |  |  +--| (100/100)
+|     |     |     |  |  |  +--S59_TAATGCGC-CCTATCCT_L001_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|     |     |     |  +--| (72.4/29)
+|     |     |     |     +--S60_TAATGCGC-GGCTCTGA_L001_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|     |     |  +--| (41.3/68)
+|     |     |  |  +--S57_TAATGCGC-TATAGCCT_L001_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|     |     +--| (97.3/71)
+|     |        |  +--S47_GAATTCGT-CAGGACGT_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|     |        +--| (99.9/98)
+|     |           +--S79_TCCGCGAA-CAGGACGT_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|  +--| (100/90)
+|  |  |     +--S18_R_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|  |  |  +--| (12.4/86)
+|  |  |  |  |  +--S29_R_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|  |  |  |  +--| (100/100)
+|  |  |  |     +--S70_CGGCTATG-TAATCTTA_L001_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|  |  +--| (90.8/70)
+|  |     |  +--S75_TCCGCGAA-CCTATCCT_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|  |     +--| (100/100)
+|  |        +--S7_R_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus_2
++--| (100/80)
+|  |        +--S1_ATTACTCG-TATAGCCT_L001_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus_2
+|  |     +--| (99.7/100)
+|  |     |  +--S30_R_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|  |  +--| (100/98)
+|  |  |  +--S35_R_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|  +--| (77.7/85)
+|     +--S36_ATTCAGAA-GGCTCTGA_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|
+|     +--S13_R_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|  +--| (60.2/95)
+|  |  +--S55_CTGAAGCT-CAGGACGT_L001_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
++--| (100/100)
+   |           +--S17_R_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+   |        +--| (55.6/100)
+   |        |  +--S42_GAATTCGT-ATAGAGGC_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+   |     +--| (99.7/100)
+   |     |  +--S19_R_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+   |  +--| (98.9/98)
+   |  |  +--S31_R_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+   +--| (100/100)
+      |  +--S28_R_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+      +--| (99.3/98)
+         +--S4_ATTACTCG-GGCTCTGA_L001_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus_2
+
+Tree in newick format:
+
+(S10_R_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0093185158,(((((((((S11_R_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0085904823,S6_R_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0109801490)100/100:0.0037093571,S69_CGGCTATG-AGGCGAAG_L001_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0084294817)100/100:0.0026961826,((((((((S12_R_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus_2:0.0064976566,S38_ATTCAGAA-TAATCTTA_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0048081599)100/100:0.0030714961,((((S14_R_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0051249959,S3_ATTACTCG-CCTATCCT_L001_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0066417246)82/99:0.0013027736,S34_R_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0082166950)100/100:0.0026870500,(S48_GAATTCGT-GTACTGAC_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus_2:0.0046982671,S54_CTGAAGCT-TAATCTTA_L001_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0051877015)100/100:0.0021803541)5.1/32:0.0016873525,((S2_ATTACTCG-ATAGAGGC_L001_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0071235816,S50_CTGAAGCT-ATAGAGGC_L001_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0051423289)99.6/94:0.0023351698,(S52_CTGAAGCT-GGCTCTGA_L001_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0074890854,S68_CGGCTATG-GGCTCTGA_L001_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0118831094)99.8/100:0.0023056506)99.9/64:0.0020048341)100/65:0.0021393671)93.1/64:0.0012068075,S41_GAATTCGT-TATAGCCT_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0067181219)100/100:0.0044303959,S63_TAATGCGC-CAGGACGT_L001_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0119290108)97.9/98:0.0018155144,S71_CGGCTATG-CAGGACGT_L001_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0083741863)99.6/98:0.0009767129,((S40_ATTCAGAA-GTACTGAC_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0189209468,S77_TCCGCGAA-AGGCGAAG_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0158287982)100/100:0.0043068636,((S64_TAATGCGC-GTACTGAC_L001_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0058335300,(S72_CGGCTATG-GTACTGAC_L001_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0031599588,S73_TCCGCGAA-TATAGCCT_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0045502918)91.8/100:0.0012207357)94.2/99:0.0018586072,S78_TCCGCGAA-TAATCTTA_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0109833156)100/100:0.0051722267)99.2/100:0.0019444489)100/100:0.0076705927,(((((((((S58_TAATGCGC-ATAGAGGC_L001_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0097437976,S23_S23_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0101909041)100/100:0.0041764730,S12_S12_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0117738605)100/100:0.0169952837,(S11_S11_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0272738384,((S13_Oxandra_macrophylla:0.0195102155,((S15_S15_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0141514785,S16_S16_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0164377381)100/100:0.0027037508,S18_S18_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0179794471)100/100:0.0016425319)14.2/70:0.0003741111,S8_S8_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0158359691)100/100:0.0050266415)100/100:0.0067817431)100/100:0.0013811864,(S10_S10_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0340395154,(S17_S17_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0152049927,(S2_Cremastosperma_leiophyllum:0.0092562151,S3_S3_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0110474601)100/100:0.0168505992)100/100:0.0071076478)100/100:0.0020537863)100/100:0.0030336491,((S82_TCTCGCGC-ATAGAGGC_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus_2:0.0136678892,(S20_S20_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0101291805,S4_S4_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0080128483)100/100:0.0047094632)100/100:0.0091633478,(S19_S19_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0103832451,S95_AGCGATAG-CAGGACGT_L002_R2_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0096081518)100/100:0.0188489689)100/100:0.0206958429)100/100:0.0553189502,((S76_TCCGCGAA-GGCTCTGA_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus_2:0.0173353783,S1_Anaxagorea_phaeocarpa_Mart._vel_aff.:0.0263407913)100/100:0.1721773517,(((Cananga_kirkii:0.0084567684,Cananga_odorata_Abbott24307_2_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0065247805)100/100:0.0281586973,Deeringothamnus_pulchellus_Abbott23697_2_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.3638508502)100/100:0.0431473329,S21_S21_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.1863205967)100/100:0.0784076822)100/100:0.0127338249)100/100:0.0228340318,((Cymbopetalum_torulosum_Blanco2264_2_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0359693884,S14_S14_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0400035344)100/100:0.0252895532,(S22_S22_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0173399310,S9_S9_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0221535332)100/100:0.0353196169)100/100:0.1291270302)100/100:0.0253948403,(((((((S85_TCTCGCGC-AGGCGAAG_L001_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0191974845,((Consensus_Annona_cherimola:0.0000004614,S86_Annona_cherimola:0.0000004614)100/100:0.0169743301,Raimondia_quinduensis_Abbott25012_2_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0243641589)100/100:0.0127826250)100/100:0.0053131467,S87_TCTCGCGC-CAGGACGT_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0275722845)100/100:0.0099680275,S88_TCTCGCGC-GTACTGAC_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0437833162)100/100:0.0626372954,S5_S5_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0731220855)100/100:0.0047227484,((((Asimina_obovata_Abbott23747_2_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0046777916,(((Asimina_pygmaea_Abbott22471_2_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0020745206,Asimina_reticulata_Abbott22466_2_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0034711203)87.8/99:0.0016377071,Deeringothamnus_rugelii_Abbott22361_2_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0051991965)67.8/96:0.0013933659,Asimina_tetramera_Abbott14312_2_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0055378297)42.1/94:0.0010764766)100/100:0.0023169696,Asimina_parviflora_Abbott20528_2_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0049765073)100/100:0.0059984533,S89_AGCGATAG-TATAGCCT_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0091361075)100/100:0.0275252799,Disepalum_pulchrum_Chan192_2_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0436524304)100/100:0.0090380812)100/100:0.0341150009,((S90_AGCGATAG-ATAGAGGC_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0206538011,(S92_AGCGATAG-GGCTCTGA_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0064884151,(S93_AGCGATAG-AGGCGAAG_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0038057814,S94_AGCGATAG-TAATCTTA_L002_R2_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0059916773)99.4/100:0.0018514873)100/100:0.0223225361)100/100:0.0315618268,(S91_AGCGATAG-CCTATCCT_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0224168187,S96_AGCGATAG-GTACTGAC_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0195480485)100/100:0.0345205411)100/100:0.0237663917)100/100:0.0339526740,((Artabotrys_hexapetalus_Abbott23913_2_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0381380790,S24_S24_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0894569528)100/100:0.0098308412,((Fusaea_peruviana_Abbott19140_2_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0292991161,S6_S6_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0217313130)100/100:0.0164441823,S7_S7_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0321699575)100/100:0.0274309167)82.9/96:0.0021243655)99.8/100:0.0035596565)100/100:0.0968690572,(S5_R_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0066144505,S84_TCTCGCGC-GGCTCTGA_L001_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0048377090)100/100:0.0133316667)100/100:0.0105555598)100/100:0.0041087617,S9_R_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0135603374)100/100:0.0025939267)100/100:0.0028255324,((((S15_R_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0101980473,S27_R_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0130021294)100/89:0.0039329626,(S21_R_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0063215479,S43_GAATTCGT-CCTATCCT_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0077535619)96.1/85:0.0007809535)100/89:0.0026722567,(S44_GAATTCGT-GGCTCTGA_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0112262094,S49_CTGAAGCT-TATAGCCT_L001_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus_2:0.0094436230)97.4/89:0.0011935298)99.9/88:0.0019350222,S53_CTGAAGCT-AGGCGAAG_L001_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0099135137)100/92:0.0020411524)99.8/92:0.0021818491,S67_CGGCTATG-CCTATCCT_L001_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0082381699)93.8/90:0.0017569515,((S33_R_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0066965096,S65_CGGCTATG-TATAGCCT_L001_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus_2:0.0058096201)83/100:0.0011489748,S74_TCCGCGAA-ATAGAGGC_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0105332057)100/100:0.0019716362)100/92:0.0028852084,((((S16_R_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0090580913,(S20_R_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0045921184,S37_ATTCAGAA-AGGCGAAG_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0071888999)100/100:0.0019342174)99.9/89:0.0019136154,(S24_R_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0040266079,S45_GAATTCGT-AGGCGAAG_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0031218725)100/100:0.0049349675)71.9/65:0.0014749739,(((((S22_R_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0050211938,S51_CTGAAGCT-CCTATCCT_L001_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0055546909)88/91:0.0016256360,S81_TCTCGCGC-TATAGCCT_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0258890843)92.2/84:0.0007858768,S83_TCTCGCGC-CCTATCCT_L001_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus_2:0.0262974650)70.1/84:0.0008772665,((S26_R_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0055262607,S62_TAATGCGC-TAATCTTA_L001_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus_2:0.0084599425)98.7/90:0.0020764563,(S32_R_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0075310346,S61_TAATGCGC-AGGCGAAG_L001_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0042608260)99.9/100:0.0022532317)99.9/90:0.0019918390)93.6/83:0.0016929164,((S25_R_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0066979423,(S39_ATTCAGAA-CAGGACGT_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0059800443,S46_GAATTCGT-TAATCTTA_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0062658320)78.2/96:0.0016777784)98.7/85:0.0015474775,(S66_CGGCTATG-ATAGAGGC_L001_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0102928010,S80_TCCGCGAA-GTACTGAC_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0097283920)57.7/81:0.0016728449)100/96:0.0022075023)65.2/78:0.0014258851)98.2/71:0.0022182046,((((S23_R_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus_2:0.0071482570,S8_R_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus_2:0.0059032927)95.7/63:0.0005701808,((S56_CTGAAGCT-GTACTGAC_L001_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0046986646,S59_TAATGCGC-CCTATCCT_L001_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0037513665)100/100:0.0023374234,S60_TAATGCGC-GGCTCTGA_L001_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0039874841)72.4/29:0.0005652028)99.9/88:0.0013018585,S57_TAATGCGC-TATAGCCT_L001_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0066292830)41.3/68:0.0015341749,(S47_GAATTCGT-CAGGACGT_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0064738064,S79_TCCGCGAA-CAGGACGT_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0127004972)99.9/98:0.0021064695)97.3/71:0.0017902611)100/72:0.0019067275)96.7/72:0.0017052608,((S18_R_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0092083423,(S29_R_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0055802470,S70_CGGCTATG-TAATCTTA_L001_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0046588250)100/100:0.0042382494)12.4/86:0.0012857451,(S75_TCCGCGAA-CCTATCCT_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0049035756,S7_R_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus_2:0.0139070562)100/100:0.0043840926)90.8/70:0.0014799909)100/90:0.0039398960,(((S1_ATTACTCG-TATAGCCT_L001_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus_2:0.0076259614,S30_R_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0104112716)99.7/100:0.0014091960,S35_R_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0080407489)100/98:0.0017998613,S36_ATTCAGAA-GGCTCTGA_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0101722278)77.7/85:0.0008199556)100/80:0.0025778263,((S13_R_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0073350536,S55_CTGAAGCT-CAGGACGT_L001_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0108566580)60.2/95:0.0027178718,((((S17_R_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0088336415,S42_GAATTCGT-ATAGAGGC_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0142242905)55.6/100:0.0017673470,S19_R_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0090921087)99.7/100:0.0017822671,S31_R_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0068933924)98.9/98:0.0013831906,(S28_R_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0063157427,S4_ATTACTCG-GGCTCTGA_L001_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus_2:0.0106586179)99.3/98:0.0013028149)100/100:0.0027130313)100/100:0.0021947419);
+
+CONSENSUS TREE
+--------------
+
+Consensus tree is constructed from 1000 bootstrap trees
+Log-likelihood of consensus tree: -1297475.07054239
+Robinson-Foulds distance between ML tree and consensus tree: 4
+
+Branches with support >0.00000000% are kept (extended consensus)
+Branch lengths are optimized by maximum likelihood on original alignment
+Numbers in parentheses are bootstrap supports (%)
+
++--S10_R_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|
+|                          +--S11_R_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|                       +--| (100)
+|                       |  +--S6_R_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|                    +--| (100)
+|                    |  +--S69_CGGCTATG-AGGCGAAG_L001_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|                 +--| (100)
+|                 |  |                       +--S12_R_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus_2
+|                 |  |                    +--| (100)
+|                 |  |                    |  +--S38_ATTCAGAA-TAATCTTA_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|                 |  |                 +--| (64)
+|                 |  |                 |  |           +--S14_R_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|                 |  |                 |  |        +--| (99)
+|                 |  |                 |  |        |  +--S3_ATTACTCG-CCTATCCT_L001_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|                 |  |                 |  |     +--| (100)
+|                 |  |                 |  |     |  +--S34_R_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|                 |  |                 |  |  +--| (32)
+|                 |  |                 |  |  |  |     +--S2_ATTACTCG-ATAGAGGC_L001_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|                 |  |                 |  |  |  |  +--| (94)
+|                 |  |                 |  |  |  |  |  +--S50_CTGAAGCT-ATAGAGGC_L001_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|                 |  |                 |  |  |  +--| (64)
+|                 |  |                 |  |  |     |  +--S52_CTGAAGCT-GGCTCTGA_L001_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|                 |  |                 |  |  |     +--| (100)
+|                 |  |                 |  |  |        +--S68_CGGCTATG-GGCTCTGA_L001_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|                 |  |                 |  +--| (65)
+|                 |  |                 |     |  +--S48_GAATTCGT-GTACTGAC_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus_2
+|                 |  |                 |     +--| (100)
+|                 |  |                 |        +--S54_CTGAAGCT-TAATCTTA_L001_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|                 |  |              +--| (100)
+|                 |  |              |  +--S41_GAATTCGT-TATAGCCT_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|                 |  |           +--| (98)
+|                 |  |           |  +--S63_TAATGCGC-CAGGACGT_L001_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|                 |  |        +--| (98)
+|                 |  |        |  +--S71_CGGCTATG-CAGGACGT_L001_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|                 |  |     +--| (100)
+|                 |  |     |  |     +--S40_ATTCAGAA-GTACTGAC_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|                 |  |     |  |  +--| (100)
+|                 |  |     |  |  |  +--S77_TCCGCGAA-AGGCGAAG_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|                 |  |     |  +--| (100)
+|                 |  |     |     |     +--S64_TAATGCGC-GTACTGAC_L001_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|                 |  |     |     |  +--| (99)
+|                 |  |     |     |  |  |  +--S72_CGGCTATG-GTACTGAC_L001_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|                 |  |     |     |  |  +--| (100)
+|                 |  |     |     |  |     +--S73_TCCGCGAA-TATAGCCT_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|                 |  |     |     +--| (100)
+|                 |  |     |        +--S78_TCCGCGAA-TAATCTTA_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|                 |  |  +--| (100)
+|                 |  |  |  |                                +--S58_TAATGCGC-ATAGAGGC_L001_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|                 |  |  |  |                             +--| (100)
+|                 |  |  |  |                             |  +--S23_S23_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|                 |  |  |  |                          +--| (100)
+|                 |  |  |  |                          |  +--S12_S12_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|                 |  |  |  |                       +--| (100)
+|                 |  |  |  |                       |  |  +--S11_S11_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|                 |  |  |  |                       |  +--| (100)
+|                 |  |  |  |                       |     |     +--S13_Oxandra_macrophylla
+|                 |  |  |  |                       |     |  +--| (70)
+|                 |  |  |  |                       |     |  |  |     +--S15_S15_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|                 |  |  |  |                       |     |  |  |  +--| (100)
+|                 |  |  |  |                       |     |  |  |  |  +--S16_S16_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|                 |  |  |  |                       |     |  |  +--| (100)
+|                 |  |  |  |                       |     |  |     +--S18_S18_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|                 |  |  |  |                       |     +--| (100)
+|                 |  |  |  |                       |        +--S8_S8_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|                 |  |  |  |                    +--| (100)
+|                 |  |  |  |                    |  |  +--S10_S10_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|                 |  |  |  |                    |  +--| (100)
+|                 |  |  |  |                    |     |  +--S17_S17_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|                 |  |  |  |                    |     +--| (100)
+|                 |  |  |  |                    |        |  +--S2_Cremastosperma_leiophyllum
+|                 |  |  |  |                    |        +--| (100)
+|                 |  |  |  |                    |           +--S3_S3_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|                 |  |  |  |                +---| (100)
+|                 |  |  |  |                |   |     +--S82_TCTCGCGC-ATAGAGGC_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus_2
+|                 |  |  |  |                |   |  +--| (100)
+|                 |  |  |  |                |   |  |  |  +--S20_S20_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|                 |  |  |  |                |   |  |  +--| (100)
+|                 |  |  |  |                |   |  |     +--S4_S4_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|                 |  |  |  |                |   +--| (100)
+|                 |  |  |  |                |      |  +--S19_S19_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|                 |  |  |  |                |      +--| (100)
+|                 |  |  |  |                |         +--S95_AGCGATAG-CAGGACGT_L002_R2_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|                 |  |  |  |             +--| (100)
+|                 |  |  |  |             |  |                 +--S76_TCCGCGAA-GGCTCTGA_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus_2
+|                 |  |  |  |             |  |  +--------------| (100)
+|                 |  |  |  |             |  |  |              +--S1_Anaxagorea_phaeocarpa_Mart._vel_aff.
+|                 |  |  |  |             |  +--| (100)
+|                 |  |  |  |             |     |           +--Cananga_kirkii
+|                 |  |  |  |             |     |        +--| (100)
+|                 |  |  |  |             |     |        |  +--Cananga_odorata_Abbott24307_2_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|                 |  |  |  |             |     |     +--| (100)
+|                 |  |  |  |             |     |     |  +-------------------------------Deeringothamnus_pulchellus_Abbott23697_2_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|                 |  |  |  |             |     +-----| (100)
+|                 |  |  |  |             |           +---------------S21_S21_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|                 |  |  |  |          +--| (100)
+|                 |  |  |  |          |  |             +--Cymbopetalum_torulosum_Blanco2264_2_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|                 |  |  |  |          |  |          +--| (100)
+|                 |  |  |  |          |  |          |  +--S14_S14_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|                 |  |  |  |          |  +----------| (100)
+|                 |  |  |  |          |             |  +--S22_S22_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|                 |  |  |  |          |             +--| (100)
+|                 |  |  |  |          |                +--S9_S9_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|                 |  |  |  |  +-------| (100)
+|                 |  |  |  |  |       |                      +--S85_TCTCGCGC-AGGCGAAG_L001_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|                 |  |  |  |  |       |                   +--| (100)
+|                 |  |  |  |  |       |                   |  |     +**Consensus_Annona_cherimola
+|                 |  |  |  |  |       |                   |  |  +--| (100)
+|                 |  |  |  |  |       |                   |  |  |  +**S86_Annona_cherimola
+|                 |  |  |  |  |       |                   |  +--| (100)
+|                 |  |  |  |  |       |                   |     +--Raimondia_quinduensis_Abbott25012_2_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|                 |  |  |  |  |       |                +--| (100)
+|                 |  |  |  |  |       |                |  +--S87_TCTCGCGC-CAGGACGT_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|                 |  |  |  |  |       |           +----| (100)
+|                 |  |  |  |  |       |           |    +--S88_TCTCGCGC-GTACTGAC_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|                 |  |  |  |  |       |        +--| (100)
+|                 |  |  |  |  |       |        |  +-----S5_S5_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|                 |  |  |  |  |       |     +--| (100)
+|                 |  |  |  |  |       |     |  |           +--Asimina_obovata_Abbott23747_2_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|                 |  |  |  |  |       |     |  |        +--| (100)
+|                 |  |  |  |  |       |     |  |        |  |        +--Asimina_pygmaea_Abbott22471_2_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|                 |  |  |  |  |       |     |  |        |  |     +--| (99)
+|                 |  |  |  |  |       |     |  |        |  |     |  +--Asimina_reticulata_Abbott22466_2_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|                 |  |  |  |  |       |     |  |        |  |  +--| (96)
+|                 |  |  |  |  |       |     |  |        |  |  |  +--Deeringothamnus_rugelii_Abbott22361_2_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|                 |  |  |  |  |       |     |  |        |  +--| (94)
+|                 |  |  |  |  |       |     |  |        |     +--Asimina_tetramera_Abbott14312_2_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|                 |  |  |  |  |       |     |  |     +--| (100)
+|                 |  |  |  |  |       |     |  |     |  +--Asimina_parviflora_Abbott20528_2_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|                 |  |  |  |  |       |     |  |  +--| (100)
+|                 |  |  |  |  |       |     |  |  |  +--S89_AGCGATAG-TATAGCCT_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|                 |  |  |  |  |       |     |  +--| (100)
+|                 |  |  |  |  |       |     |     +--Disepalum_pulchrum_Chan192_2_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|                 |  |  |  |  |       |  +--| (100)
+|                 |  |  |  |  |       |  |  |     +--S90_AGCGATAG-ATAGAGGC_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|                 |  |  |  |  |       |  |  |  +--| (100)
+|                 |  |  |  |  |       |  |  |  |  |  +--S92_AGCGATAG-GGCTCTGA_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|                 |  |  |  |  |       |  |  |  |  +--| (100)
+|                 |  |  |  |  |       |  |  |  |     |  +--S93_AGCGATAG-AGGCGAAG_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|                 |  |  |  |  |       |  |  |  |     +--| (100)
+|                 |  |  |  |  |       |  |  |  |        +--S94_AGCGATAG-TAATCTTA_L002_R2_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|                 |  |  |  |  |       |  |  +--| (100)
+|                 |  |  |  |  |       |  |     |  +--S91_AGCGATAG-CCTATCCT_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|                 |  |  |  |  |       |  |     +--| (100)
+|                 |  |  |  |  |       |  |        +--S96_AGCGATAG-GTACTGAC_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|                 |  |  |  |  |       +--| (100)
+|                 |  |  |  |  |          |     +--Artabotrys_hexapetalus_Abbott23913_2_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|                 |  |  |  |  |          |  +--| (100)
+|                 |  |  |  |  |          |  |  +------S24_S24_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|                 |  |  |  |  |          +--| (96)
+|                 |  |  |  |  |             |     +--Fusaea_peruviana_Abbott19140_2_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|                 |  |  |  |  |             |  +--| (100)
+|                 |  |  |  |  |             |  |  +--S6_S6_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|                 |  |  |  |  |             +--| (100)
+|                 |  |  |  |  |                +--S7_S7_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|                 |  |  |  +--| (100)
+|                 |  |  |     |  +--S5_R_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|                 |  |  |     +--| (100)
+|                 |  |  |        +--S84_TCTCGCGC-GGCTCTGA_L001_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|                 |  +--| (100)
+|                 |     +--S9_R_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|              +--| (92)
+|              |  |           +--S15_R_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|              |  |        +--| (89)
+|              |  |        |  +--S27_R_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|              |  |     +--| (89)
+|              |  |     |  |  +--S21_R_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|              |  |     |  +--| (85)
+|              |  |     |     +--S43_GAATTCGT-CCTATCCT_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|              |  |  +--| (88)
+|              |  |  |  |  +--S44_GAATTCGT-GGCTCTGA_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|              |  |  |  +--| (89)
+|              |  |  |     +--S49_CTGAAGCT-TATAGCCT_L001_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus_2
+|              |  +--| (92)
+|              |     +--S53_CTGAAGCT-AGGCGAAG_L001_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|           +--| (90)
+|           |  +--S67_CGGCTATG-CCTATCCT_L001_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|        +--| (92)
+|        |  |     +--S33_R_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|        |  |  +--| (100)
+|        |  |  |  +--S65_CGGCTATG-TATAGCCT_L001_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus_2
+|        |  +--| (100)
+|        |     +--S74_TCCGCGAA-ATAGAGGC_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|     +--| (72)
+|     |  |           +--S16_R_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|     |  |        +--| (89)
+|     |  |        |  |  +--S20_R_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|     |  |        |  +--| (100)
+|     |  |        |     +--S37_ATTCAGAA-AGGCGAAG_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|     |  |     +--| (65)
+|     |  |     |  |  +--S24_R_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|     |  |     |  +--| (100)
+|     |  |     |     +--S45_GAATTCGT-AGGCGAAG_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|     |  |  +--| (71)
+|     |  |  |  |              +--S22_R_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|     |  |  |  |           +--| (91)
+|     |  |  |  |           |  +--S51_CTGAAGCT-CCTATCCT_L001_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|     |  |  |  |        +--| (84)
+|     |  |  |  |        |  +--S81_TCTCGCGC-TATAGCCT_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|     |  |  |  |     +--| (84)
+|     |  |  |  |     |  +--S83_TCTCGCGC-CCTATCCT_L001_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus_2
+|     |  |  |  |  +--| (83)
+|     |  |  |  |  |  |     +--S26_R_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|     |  |  |  |  |  |  +--| (90)
+|     |  |  |  |  |  |  |  +--S62_TAATGCGC-TAATCTTA_L001_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus_2
+|     |  |  |  |  |  +--| (90)
+|     |  |  |  |  |     |  +--S32_R_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|     |  |  |  |  |     +--| (100)
+|     |  |  |  |  |        +--S61_TAATGCGC-AGGCGAAG_L001_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|     |  |  |  +--| (78)
+|     |  |  |     |     +--S25_R_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|     |  |  |     |  +--| (85)
+|     |  |  |     |  |  |  +--S39_ATTCAGAA-CAGGACGT_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|     |  |  |     |  |  +--| (96)
+|     |  |  |     |  |     +--S46_GAATTCGT-TAATCTTA_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|     |  |  |     +--| (96)
+|     |  |  |        |  +--S66_CGGCTATG-ATAGAGGC_L001_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|     |  |  |        +--| (81)
+|     |  |  |           +--S80_TCCGCGAA-GTACTGAC_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|     |  +--| (72)
+|     |     |              +--S23_R_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus_2
+|     |     |           +--| (63)
+|     |     |           |  +--S8_R_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus_2
+|     |     |        +--| (30)
+|     |     |        |  |  +--S56_CTGAAGCT-GTACTGAC_L001_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|     |     |        |  +--| (100)
+|     |     |        |     +--S59_TAATGCGC-CCTATCCT_L001_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|     |     |     +--| (88)
+|     |     |     |  +--S60_TAATGCGC-GGCTCTGA_L001_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|     |     |  +--| (68)
+|     |     |  |  +--S57_TAATGCGC-TATAGCCT_L001_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|     |     +--| (71)
+|     |        |  +--S47_GAATTCGT-CAGGACGT_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|     |        +--| (98)
+|     |           +--S79_TCCGCGAA-CAGGACGT_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|  +--| (90)
+|  |  |     +--S18_R_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|  |  |  +--| (86)
+|  |  |  |  |  +--S29_R_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|  |  |  |  +--| (100)
+|  |  |  |     +--S70_CGGCTATG-TAATCTTA_L001_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|  |  +--| (70)
+|  |     |  +--S75_TCCGCGAA-CCTATCCT_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|  |     +--| (100)
+|  |        +--S7_R_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus_2
++--| (80)
+|  |        +--S1_ATTACTCG-TATAGCCT_L001_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus_2
+|  |     +--| (100)
+|  |     |  +--S30_R_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|  |  +--| (98)
+|  |  |  +--S35_R_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|  +--| (85)
+|     +--S36_ATTCAGAA-GGCTCTGA_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|
+|     +--S13_R_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+|  +--| (95)
+|  |  +--S55_CTGAAGCT-CAGGACGT_L001_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
++--| (100)
+   |           +--S17_R_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+   |        +--| (100)
+   |        |  +--S42_GAATTCGT-ATAGAGGC_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+   |     +--| (100)
+   |     |  +--S19_R_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+   |  +--| (98)
+   |  |  +--S31_R_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+   +--| (100)
+      |  +--S28_R_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus
+      +--| (98)
+         +--S4_ATTACTCG-GGCTCTGA_L001_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus_2
+
+
+Consensus tree in newick format: 
+
+(S10_R_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0093162855,(((((((((S11_R_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0085898549,S6_R_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0109814950)100:0.0037106730,S69_CGGCTATG-AGGCGAAG_L001_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0084313295)100:0.0026948041,((((((((S12_R_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus_2:0.0065283047,S38_ATTCAGAA-TAATCTTA_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0046832001)100:0.0030101600,((((S14_R_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0051614869,S3_ATTACTCG-CCTATCCT_L001_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0066311272)99:0.0014221954,S34_R_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0081459835)100:0.0027782351,((S2_ATTACTCG-ATAGAGGC_L001_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0071876486,S50_CTGAAGCT-ATAGAGGC_L001_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0051150136)94:0.0021845835,(S52_CTGAAGCT-GGCTCTGA_L001_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0074828761,S68_CGGCTATG-GGCTCTGA_L001_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0118572888)100:0.0024569794)64:0.0021413894)32:0.0012938548,(S48_GAATTCGT-GTACTGAC_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus_2:0.0046816152,S54_CTGAAGCT-TAATCTTA_L001_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0052820070)100:0.0021708971)65:0.0021777978)64:0.0012316285,S41_GAATTCGT-TATAGCCT_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0066420811)100:0.0046095096,S63_TAATGCGC-CAGGACGT_L001_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0118817500)98:0.0018010982,S71_CGGCTATG-CAGGACGT_L001_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0083201712)98:0.0010700396,((S40_ATTCAGAA-GTACTGAC_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0189122762,S77_TCCGCGAA-AGGCGAAG_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0158397258)100:0.0043178094,((S64_TAATGCGC-GTACTGAC_L001_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0058393111,(S72_CGGCTATG-GTACTGAC_L001_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0031692979,S73_TCCGCGAA-TATAGCCT_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0045470994)100:0.0012126312)99:0.0018654667,S78_TCCGCGAA-TAATCTTA_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0109600821)100:0.0051758533)100:0.0019555476)100:0.0076661457,(((((((((S58_TAATGCGC-ATAGAGGC_L001_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0097447538,S23_S23_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0101920062)100:0.0041764144,S12_S12_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0117748017)100:0.0169965246,(S11_S11_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0272757516,((S13_Oxandra_macrophylla:0.0195119127,((S15_S15_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0141532879,S16_S16_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0164393553)100:0.0027041464,S18_S18_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0179813900)100:0.0016430755)70:0.0003749356,S8_S8_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0158365457)100:0.0050271506)100:0.0067824456)100:0.0013811765,(S10_S10_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0340445530,(S17_S17_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0152066987,(S2_Cremastosperma_leiophyllum:0.0092571576,S3_S3_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0110487136)100:0.0168524119)100:0.0071068474)100:0.0020538107)100:0.0030341146,((S82_TCTCGCGC-ATAGAGGC_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus_2:0.0136691508,(S20_S20_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0101304434,S4_S4_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0080136972)100:0.0047095259)100:0.0091643888,(S19_S19_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0103842511,S95_AGCGATAG-CAGGACGT_L002_R2_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0096090916)100:0.0188507252)100:0.0206986207)100:0.0553239817,((S76_TCCGCGAA-GGCTCTGA_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus_2:0.0173367810,S1_Anaxagorea_phaeocarpa_Mart._vel_aff.:0.0263433186)100:0.1721963285,(((Cananga_kirkii:0.0084569694,Cananga_odorata_Abbott24307_2_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0065258103)100:0.0280884806,Deeringothamnus_pulchellus_Abbott23697_2_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.3638589814)100:0.0432544627,S21_S21_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.1863372140)100:0.0783985937)100:0.0127346170)100:0.0228344561,((Cymbopetalum_torulosum_Blanco2264_2_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0359729447,S14_S14_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0400070706)100:0.0252922505,(S22_S22_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0173406819,S9_S9_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0221558534)100:0.0353211426)100:0.1291267967)100:0.0253941236,(((((((S85_TCTCGCGC-AGGCGAAG_L001_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0191987936,((Consensus_Annona_cherimola:0.0000009806,S86_Annona_cherimola:0.0000009806)100:0.0169753082,Raimondia_quinduensis_Abbott25012_2_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0243651489)100:0.0127824651)100:0.0053129198,S87_TCTCGCGC-CAGGACGT_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0275762121)100:0.0099681640,S88_TCTCGCGC-GTACTGAC_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0437861889)100:0.0626380666,S5_S5_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0731300562)100:0.0047222652,((((Asimina_obovata_Abbott23747_2_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0046775785,(((Asimina_pygmaea_Abbott22471_2_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0020745047,Asimina_reticulata_Abbott22466_2_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0034718358)99:0.0016374984,Deeringothamnus_rugelii_Abbott22361_2_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0051988812)96:0.0013938337,Asimina_tetramera_Abbott14312_2_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0055380900)94:0.0010763170)100:0.0023169265,Asimina_parviflora_Abbott20528_2_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0049765345)100:0.0059982889,S89_AGCGATAG-TATAGCCT_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0091365109)100:0.0275259786,Disepalum_pulchrum_Chan192_2_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0436556497)100:0.0090394481)100:0.0341146795,((S90_AGCGATAG-ATAGAGGC_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0206570539,(S92_AGCGATAG-GGCTCTGA_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0064889850,(S93_AGCGATAG-AGGCGAAG_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0038056939,S94_AGCGATAG-TAATCTTA_L002_R2_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0059922501)100:0.0018516885)100:0.0223234254)100:0.0315649837,(S91_AGCGATAG-CCTATCCT_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0224181404,S96_AGCGATAG-GTACTGAC_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0195501910)100:0.0345223091)100:0.0237696866)100:0.0339517039,((Artabotrys_hexapetalus_Abbott23913_2_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0381420164,S24_S24_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0894655814)100:0.0098319265,((Fusaea_peruviana_Abbott19140_2_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0293006937,S6_S6_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0217333017)100:0.0164449633,S7_S7_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0321724246)100:0.0274312844)96:0.0021265420)100:0.0035613270)100:0.0968587647,(S5_R_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0066215709,S84_TCTCGCGC-GGCTCTGA_L001_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0048325649)100:0.0133227875)100:0.0105508253)100:0.0041189753,S9_R_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0135612456)100:0.0026031975)100:0.0028229330,((((S15_R_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0102034619,S27_R_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0130022637)89:0.0039360182,(S21_R_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0063232821,S43_GAATTCGT-CCTATCCT_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0077528506)85:0.0007802286)89:0.0026710941,(S44_GAATTCGT-GGCTCTGA_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0112258757,S49_CTGAAGCT-TATAGCCT_L001_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus_2:0.0094462136)89:0.0011927918)88:0.0019364251,S53_CTGAAGCT-AGGCGAAG_L001_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0099141720)92:0.0020427483)92:0.0021871794,S67_CGGCTATG-CCTATCCT_L001_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0082397080)90:0.0017384132,((S33_R_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0066926449,S65_CGGCTATG-TATAGCCT_L001_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus_2:0.0058097429)100:0.0011471701,S74_TCCGCGAA-ATAGAGGC_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0105296460)100:0.0019840359)92:0.0028840832,((((S16_R_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0090644851,(S20_R_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0045921255,S37_ATTCAGAA-AGGCGAAG_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0071916062)100:0.0019333916)89:0.0019125593,(S24_R_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0040310125,S45_GAATTCGT-AGGCGAAG_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0031185126)100:0.0049407925)65:0.0014509490,(((((S22_R_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0050195655,S51_CTGAAGCT-CCTATCCT_L001_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0055565243)91:0.0016232085,S81_TCTCGCGC-TATAGCCT_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0258944836)84:0.0007896574,S83_TCTCGCGC-CCTATCCT_L001_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus_2:0.0262949843)84:0.0008723299,((S26_R_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0055280165,S62_TAATGCGC-TAATCTTA_L001_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus_2:0.0084606172)90:0.0020760363,(S32_R_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0075297171,S61_TAATGCGC-AGGCGAAG_L001_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0042614354)100:0.0022560063)90:0.0019915823)83:0.0016965941,((S25_R_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0066940717,(S39_ATTCAGAA-CAGGACGT_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0059811679,S46_GAATTCGT-TAATCTTA_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0062684924)96:0.0016818146)85:0.0015476286,(S66_CGGCTATG-ATAGAGGC_L001_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0102976421,S80_TCCGCGAA-GTACTGAC_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0097256872)81:0.0016697076)96:0.0022065615)78:0.0014421370)71:0.0021804914,(((((S23_R_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus_2:0.0070423189,S8_R_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus_2:0.0058662721)63:0.0006612929,(S56_CTGAAGCT-GTACTGAC_L001_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0046706956,S59_TAATGCGC-CCTATCCT_L001_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0037848184)100:0.0023209985)30:0.0004686071,S60_TAATGCGC-GGCTCTGA_L001_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0040538980)88:0.0013806351,S57_TAATGCGC-TATAGCCT_L001_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0067124508)68:0.0014481796,(S47_GAATTCGT-CAGGACGT_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0064657413,S79_TCCGCGAA-CAGGACGT_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0126956873)98:0.0021006252)71:0.0018254111)72:0.0019491403)72:0.0017269718,((S18_R_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0092124336,(S29_R_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0055772141,S70_CGGCTATG-TAATCTTA_L001_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0046624607)100:0.0042419431)86:0.0012832623,(S75_TCCGCGAA-CCTATCCT_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0049011849,S7_R_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus_2:0.0139075990)100:0.0043878372)70:0.0014750053)90:0.0039431626,(((S1_ATTACTCG-TATAGCCT_L001_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus_2:0.0076264320,S30_R_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0104125732)100:0.0014087522,S35_R_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0080415337)98:0.0018010363,S36_ATTCAGAA-GGCTCTGA_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0101762660)85:0.0008168415)80:0.0025784715,((S13_R_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0073360744,S55_CTGAAGCT-CAGGACGT_L001_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0108555103)95:0.0027173794,((((S17_R_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0088336138,S42_GAATTCGT-ATAGAGGC_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0142255694)100:0.0017678674,S19_R_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0090921982)100:0.0017819101,S31_R_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0068940867)98:0.0013830244,(S28_R_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus:0.0063165546,S4_ATTACTCG-GGCTCTGA_L001_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus_2:0.0106593617)98:0.0013025686)100:0.0027111947)100:0.0021971548);
+
+ALISIM COMMAND
+--------------
+To simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis, you can use the following command:
+
+--alisim simulated_MSA -t phylo_output_aliview\plastome_tree.treefile -m "GTR{0.946836,2.08419,0.955892,0.556873,2.14105}+F{0.301217,0.200902,0.191028,0.306854}+G4{0.226718}" --length 216709
+
+To mimic the alignment used to produce this analysis, i.e. simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis *and* copying the same gap positions as the original alignment, you can use the following command:
+
+iqtree -s C:\Users\terez\OneDrive\Plocha\PP (Plantsies and Programming)\Annonaceae\aligned_plastomes_copy_aliview.fasta --alisim mimicked_MSA
+
+To simulate any number of alignments in either of the two commandlines above, use the --num-alignments options, for example mimic 100 alignments you would use the command line:
+
+iqtree -s C:\Users\terez\OneDrive\Plocha\PP (Plantsies and Programming)\Annonaceae\aligned_plastomes_copy_aliview.fasta --alisim mimicked_MSA --num-alignments 100
+
+For more information on using AliSim, please visit: www.iqtree.org/doc/AliSim
+
+TIME STAMP
+----------
+
+Date and time: Mon Jul 21 23:22:18 2025
+Total CPU time used: 7058 seconds (1h:57m:38s)
+Total wall-clock time used: 4422.455156 seconds (1h:13m:42s)
+

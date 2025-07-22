@@ -1,0 +1,673 @@
+#nexus
+
+BEGIN Taxa;
+DIMENSIONS ntax=135;
+TAXLABELS
+[1] 'S10_R_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus'
+[2] 'S11_R_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus'
+[3] 'S12_R_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus_2'
+[4] 'S13_R_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus'
+[5] 'S14_R_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus'
+[6] 'S15_R_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus'
+[7] 'S16_R_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus'
+[8] 'S17_R_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus'
+[9] 'S18_R_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus'
+[10] 'S19_R_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus'
+[11] 'S1_ATTACTCG-TATAGCCT_L001_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus_2'
+[12] 'S20_R_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus'
+[13] 'S21_R_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus'
+[14] 'S22_R_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus'
+[15] 'S23_R_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus_2'
+[16] 'S24_R_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus'
+[17] 'S25_R_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus'
+[18] 'S26_R_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus'
+[19] 'S27_R_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus'
+[20] 'S28_R_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus'
+[21] 'S29_R_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus'
+[22] 'S2_ATTACTCG-ATAGAGGC_L001_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus'
+[23] 'S30_R_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus'
+[24] 'S31_R_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus'
+[25] 'S32_R_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus'
+[26] 'S33_R_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus'
+[27] 'S34_R_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus'
+[28] 'S35_R_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus'
+[29] 'S36_ATTCAGAA-GGCTCTGA_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus'
+[30] 'S37_ATTCAGAA-AGGCGAAG_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus'
+[31] 'S38_ATTCAGAA-TAATCTTA_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus'
+[32] 'S39_ATTCAGAA-CAGGACGT_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus'
+[33] 'S3_ATTACTCG-CCTATCCT_L001_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus'
+[34] 'S40_ATTCAGAA-GTACTGAC_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus'
+[35] 'S41_GAATTCGT-TATAGCCT_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus'
+[36] 'S42_GAATTCGT-ATAGAGGC_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus'
+[37] 'S43_GAATTCGT-CCTATCCT_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus'
+[38] 'S44_GAATTCGT-GGCTCTGA_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus'
+[39] 'S45_GAATTCGT-AGGCGAAG_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus'
+[40] 'S46_GAATTCGT-TAATCTTA_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus'
+[41] 'S47_GAATTCGT-CAGGACGT_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus'
+[42] 'S48_GAATTCGT-GTACTGAC_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus_2'
+[43] 'S49_CTGAAGCT-TATAGCCT_L001_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus_2'
+[44] 'S4_ATTACTCG-GGCTCTGA_L001_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus_2'
+[45] 'S50_CTGAAGCT-ATAGAGGC_L001_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus'
+[46] 'S51_CTGAAGCT-CCTATCCT_L001_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus'
+[47] 'S52_CTGAAGCT-GGCTCTGA_L001_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus'
+[48] 'S53_CTGAAGCT-AGGCGAAG_L001_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus'
+[49] 'S54_CTGAAGCT-TAATCTTA_L001_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus'
+[50] 'S55_CTGAAGCT-CAGGACGT_L001_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus'
+[51] 'S56_CTGAAGCT-GTACTGAC_L001_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus'
+[52] 'S57_TAATGCGC-TATAGCCT_L001_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus'
+[53] 'S58_TAATGCGC-ATAGAGGC_L001_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus'
+[54] 'S59_TAATGCGC-CCTATCCT_L001_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus'
+[55] 'S5_R_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus'
+[56] 'S60_TAATGCGC-GGCTCTGA_L001_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus'
+[57] 'S61_TAATGCGC-AGGCGAAG_L001_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus'
+[58] 'S62_TAATGCGC-TAATCTTA_L001_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus_2'
+[59] 'S63_TAATGCGC-CAGGACGT_L001_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus'
+[60] 'S64_TAATGCGC-GTACTGAC_L001_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus'
+[61] 'S65_CGGCTATG-TATAGCCT_L001_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus_2'
+[62] 'S66_CGGCTATG-ATAGAGGC_L001_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus'
+[63] 'S67_CGGCTATG-CCTATCCT_L001_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus'
+[64] 'S68_CGGCTATG-GGCTCTGA_L001_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus'
+[65] 'S69_CGGCTATG-AGGCGAAG_L001_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus'
+[66] 'S6_R_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus'
+[67] 'S70_CGGCTATG-TAATCTTA_L001_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus'
+[68] 'S71_CGGCTATG-CAGGACGT_L001_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus'
+[69] 'S72_CGGCTATG-GTACTGAC_L001_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus'
+[70] 'S73_TCCGCGAA-TATAGCCT_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus'
+[71] 'S74_TCCGCGAA-ATAGAGGC_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus'
+[72] 'S75_TCCGCGAA-CCTATCCT_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus'
+[73] 'S76_TCCGCGAA-GGCTCTGA_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus_2'
+[74] 'S77_TCCGCGAA-AGGCGAAG_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus'
+[75] 'S78_TCCGCGAA-TAATCTTA_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus'
+[76] 'S79_TCCGCGAA-CAGGACGT_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus'
+[77] 'S7_R_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus_2'
+[78] 'S80_TCCGCGAA-GTACTGAC_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus'
+[79] 'S81_TCTCGCGC-TATAGCCT_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus'
+[80] 'S82_TCTCGCGC-ATAGAGGC_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus_2'
+[81] 'S83_TCTCGCGC-CCTATCCT_L001_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus_2'
+[82] 'S84_TCTCGCGC-GGCTCTGA_L001_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus'
+[83] 'S85_TCTCGCGC-AGGCGAAG_L001_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus'
+[84] 'S8_R_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus_2'
+[85] 'S9_R_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus'
+[86] 'Artabotrys_hexapetalus_Abbott23913_2_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus'
+[87] 'Asimina_obovata_Abbott23747_2_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus'
+[88] 'Asimina_parviflora_Abbott20528_2_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus'
+[89] 'Asimina_pygmaea_Abbott22471_2_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus'
+[90] 'Asimina_reticulata_Abbott22466_2_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus'
+[91] 'Asimina_tetramera_Abbott14312_2_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus'
+[92] 'Cananga_kirkii'
+[93] 'Cananga_odorata_Abbott24307_2_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus'
+[94] 'Consensus_Annona_cherimola'
+[95] 'Cymbopetalum_torulosum_Blanco2264_2_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus'
+[96] 'Deeringothamnus_pulchellus_Abbott23697_2_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus'
+[97] 'Deeringothamnus_rugelii_Abbott22361_2_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus'
+[98] 'Disepalum_pulchrum_Chan192_2_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus'
+[99] 'Fusaea_peruviana_Abbott19140_2_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus'
+[100] 'Raimondia_quinduensis_Abbott25012_2_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus'
+[101] 'S1_Anaxagorea_phaeocarpa_Mart._vel_aff.'
+[102] 'S10_S10_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus'
+[103] 'S11_S11_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus'
+[104] 'S12_S12_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus'
+[105] 'S13_Oxandra_macrophylla'
+[106] 'S14_S14_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus'
+[107] 'S15_S15_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus'
+[108] 'S16_S16_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus'
+[109] 'S17_S17_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus'
+[110] 'S18_S18_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus'
+[111] 'S19_S19_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus'
+[112] 'S2_Cremastosperma_leiophyllum'
+[113] 'S20_S20_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus'
+[114] 'S21_S21_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus'
+[115] 'S22_S22_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus'
+[116] 'S23_S23_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus'
+[117] 'S24_S24_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus'
+[118] 'S3_S3_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus'
+[119] 'S4_S4_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus'
+[120] 'S5_S5_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus'
+[121] 'S6_S6_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus'
+[122] 'S7_S7_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus'
+[123] 'S86_Annona_cherimola'
+[124] 'S87_TCTCGCGC-CAGGACGT_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus'
+[125] 'S88_TCTCGCGC-GTACTGAC_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus'
+[126] 'S89_AGCGATAG-TATAGCCT_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus'
+[127] 'S8_S8_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus'
+[128] 'S90_AGCGATAG-ATAGAGGC_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus'
+[129] 'S91_AGCGATAG-CCTATCCT_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus'
+[130] 'S92_AGCGATAG-GGCTCTGA_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus'
+[131] 'S93_AGCGATAG-AGGCGAAG_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus'
+[132] 'S94_AGCGATAG-TAATCTTA_L002_R2_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus'
+[133] 'S95_AGCGATAG-CAGGACGT_L002_R2_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus'
+[134] 'S96_AGCGATAG-GTACTGAC_L002_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus'
+[135] 'S9_S9_R_001_assembled_to_Uvaria_afzelii_with_annotations__incl_from_Dogma__Copy_consensus'
+;
+END; [Taxa]
+
+BEGIN Splits;
+DIMENSIONS ntax=135 nsplits=523;
+FORMAT labels=no weights=yes confidences=no intervals=no;
+MATRIX
+	100	 2,
+	100	 66,
+	100	 2 66,
+	100	 65,
+	100	 2 65 66,
+	100	 3,
+	100	 31,
+	100	 3 31,
+	100	 5,
+	100	 33,
+	99	 5 33,
+	100	 27,
+	100	 5 27 33,
+	100	 42,
+	100	 49,
+	100	 42 49,
+	32	 5 27 33 42 49,
+	100	 22,
+	100	 45,
+	94	 22 45,
+	100	 47,
+	100	 64,
+	100	 47 64,
+	64	 22 45 47 64,
+	65	 5 22 27 33 42 45 47 49 64,
+	64	 3 5 22 27 31 33 42 45 47 49 64,
+	100	 35,
+	100	 3 5 22 27 31 33 35 42 45 47 49 64,
+	100	 59,
+	98	 3 5 22 27 31 33 35 42 45 47 49 59 64,
+	100	 68,
+	98	 3 5 22 27 31 33 35 42 45 47 49 59 64 68,
+	100	 34,
+	100	 74,
+	100	 34 74,
+	100	 60,
+	100	 69,
+	100	 70,
+	100	 69 70,
+	99	 60 69 70,
+	100	 75,
+	100	 60 69 70 75,
+	100	 34 60 69 70 74 75,
+	100	 3 5 22 27 31 33 34 35 42 45 47 49 59 60 64 68 69 70 74 75,
+	100	 53,
+	100	 116,
+	100	 53 116,
+	100	 104,
+	100	 53 104 116,
+	100	 103,
+	100	 105,
+	100	 107,
+	100	 108,
+	100	 107 108,
+	100	 110,
+	100	 107 108 110,
+	70	 105 107 108 110,
+	100	 127,
+	100	 105 107 108 110 127,
+	100	 103 105 107 108 110 127,
+	100	 53 103 104 105 107 108 110 116 127,
+	100	 102,
+	100	 109,
+	100	 112,
+	100	 118,
+	100	 112 118,
+	100	 109 112 118,
+	100	 102 109 112 118,
+	100	 53 102 103 104 105 107 108 109 110 112 116 118 127,
+	100	 80,
+	100	 113,
+	100	 119,
+	100	 113 119,
+	100	 80 113 119,
+	100	 111,
+	100	 133,
+	100	 111 133,
+	100	 80 111 113 119 133,
+	100	 53 80 102 103 104 105 107 108 109 110 111 112 113 116 118 119 127 133,
+	100	 73,
+	100	 101,
+	100	 73 101,
+	100	 92,
+	100	 93,
+	100	 92 93,
+	100	 96,
+	100	 92 93 96,
+	100	 114,
+	100	 92 93 96 114,
+	100	 73 92 93 96 101 114,
+	100	 53 73 80 92 93 96 101 102 103 104 105 107 108 109 110 111 112 113 114 116 118 119 127 133,
+	100	 95,
+	100	 106,
+	100	 95 106,
+	100	 115,
+	100	 135,
+	100	 115 135,
+	100	 95 106 115 135,
+	100	 53 73 80 92 93 95 96 101 102 103 104 105 106 107 108 109 110 111 112 113 114 115 116 118 119 127 133 135,
+	100	 83,
+	100	 94,
+	100	 123,
+	100	 94 123,
+	100	 100,
+	100	 94 100 123,
+	100	 83 94 100 123,
+	100	 124,
+	100	 83 94 100 123 124,
+	100	 125,
+	100	 83 94 100 123 124 125,
+	100	 120,
+	100	 83 94 100 120 123 124 125,
+	100	 87,
+	100	 89,
+	100	 90,
+	99	 89 90,
+	100	 97,
+	96	 89 90 97,
+	100	 91,
+	94	 89 90 91 97,
+	100	 87 89 90 91 97,
+	100	 88,
+	100	 87 88 89 90 91 97,
+	100	 126,
+	100	 87 88 89 90 91 97 126,
+	100	 98,
+	100	 87 88 89 90 91 97 98 126,
+	100	 83 87 88 89 90 91 94 97 98 100 120 123 124 125 126,
+	100	 128,
+	100	 130,
+	100	 131,
+	100	 132,
+	100	 131 132,
+	100	 130 131 132,
+	100	 128 130 131 132,
+	100	 129,
+	100	 134,
+	100	 129 134,
+	100	 128 129 130 131 132 134,
+	100	 83 87 88 89 90 91 94 97 98 100 120 123 124 125 126 128 129 130 131 132 134,
+	100	 86,
+	100	 117,
+	100	 86 117,
+	100	 99,
+	100	 121,
+	100	 99 121,
+	100	 122,
+	100	 99 121 122,
+	96	 86 99 117 121 122,
+	100	 83 86 87 88 89 90 91 94 97 98 99 100 117 120 121 122 123 124 125 126 128 129 130 131 132 134,
+	100	 53 73 80 83 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 101 102 103 104 105 106 107 108 109 110 111 112 113 114 115 116 117 118 119 120 121 122 123 124 125 126 127 128 129 130 131 132 133 134 135,
+	100	 55,
+	100	 82,
+	100	 55 82,
+	100	 53 55 73 80 82 83 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 101 102 103 104 105 106 107 108 109 110 111 112 113 114 115 116 117 118 119 120 121 122 123 124 125 126 127 128 129 130 131 132 133 134 135,
+	100	 1 2 4 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 23 24 25 26 28 29 30 32 36 37 38 39 40 41 43 44 46 48 50 51 52 54 56 57 58 61 62 63 65 66 67 71 72 76 77 78 79 81 84 85,
+	100	 85,
+	100	 1 2 4 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 23 24 25 26 28 29 30 32 36 37 38 39 40 41 43 44 46 48 50 51 52 54 56 57 58 61 62 63 65 66 67 71 72 76 77 78 79 81 84,
+	100	 1 4 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 23 24 25 26 28 29 30 32 36 37 38 39 40 41 43 44 46 48 50 51 52 54 56 57 58 61 62 63 67 71 72 76 77 78 79 81 84,
+	100	 6,
+	100	 19,
+	89	 6 19,
+	100	 13,
+	100	 37,
+	85	 13 37,
+	89	 6 13 19 37,
+	100	 38,
+	100	 43,
+	89	 38 43,
+	88	 6 13 19 37 38 43,
+	100	 48,
+	92	 6 13 19 37 38 43 48,
+	92	 1 4 7 8 9 10 11 12 14 15 16 17 18 20 21 23 24 25 26 28 29 30 32 36 39 40 41 44 46 50 51 52 54 56 57 58 61 62 63 67 71 72 76 77 78 79 81 84,
+	100	 63,
+	90	 1 4 7 8 9 10 11 12 14 15 16 17 18 20 21 23 24 25 26 28 29 30 32 36 39 40 41 44 46 50 51 52 54 56 57 58 61 62 67 71 72 76 77 78 79 81 84,
+	100	 26,
+	100	 61,
+	100	 26 61,
+	100	 71,
+	100	 26 61 71,
+	92	 1 4 7 8 9 10 11 12 14 15 16 17 18 20 21 23 24 25 28 29 30 32 36 39 40 41 44 46 50 51 52 54 56 57 58 62 67 72 76 77 78 79 81 84,
+	100	 7,
+	100	 12,
+	100	 30,
+	100	 12 30,
+	89	 7 12 30,
+	100	 16,
+	100	 39,
+	100	 16 39,
+	65	 7 12 16 30 39,
+	100	 14,
+	100	 46,
+	91	 14 46,
+	100	 79,
+	84	 14 46 79,
+	100	 81,
+	84	 14 46 79 81,
+	100	 18,
+	100	 58,
+	90	 18 58,
+	100	 25,
+	100	 57,
+	100	 25 57,
+	90	 18 25 57 58,
+	83	 14 18 25 46 57 58 79 81,
+	100	 17,
+	100	 78,
+	12	 17 78,
+	100	 62,
+	7	 17 62 78,
+	100	 32,
+	100	 40,
+	96	 32 40,
+	96	 17 32 40 62 78,
+	78	 14 17 18 25 32 40 46 57 58 62 78 79 81,
+	71	 7 12 14 16 17 18 25 30 32 39 40 46 57 58 62 78 79 81,
+	100	 15,
+	100	 84,
+	63	 15 84,
+	100	 51,
+	100	 54,
+	100	 51 54,
+	100	 56,
+	29	 51 54 56,
+	88	 15 51 54 56 84,
+	100	 52,
+	68	 15 51 52 54 56 84,
+	100	 41,
+	100	 76,
+	98	 41 76,
+	71	 15 41 51 52 54 56 76 84,
+	72	 7 12 14 15 16 17 18 25 30 32 39 40 41 46 51 52 54 56 57 58 62 76 78 79 81 84,
+	72	 1 4 8 9 10 11 20 21 23 24 28 29 36 44 50 67 72 77,
+	100	 9,
+	100	 21,
+	100	 67,
+	100	 21 67,
+	86	 9 21 67,
+	100	 72,
+	100	 77,
+	100	 72 77,
+	70	 9 21 67 72 77,
+	90	 1 4 8 10 11 20 23 24 28 29 36 44 50,
+	100	 11,
+	100	 23,
+	100	 11 23,
+	100	 28,
+	98	 11 23 28,
+	100	 29,
+	85	 11 23 28 29,
+	80	 1 4 8 10 20 24 36 44 50,
+	100	 4,
+	100	 50,
+	95	 4 50,
+	100	 8,
+	100	 36,
+	100	 8 36,
+	100	 10,
+	100	 8 10 36,
+	100	 24,
+	98	 8 10 24 36,
+	100	 20,
+	100	 44,
+	98	 20 44,
+	100	 8 10 20 24 36 44,
+	100	 4 8 10 20 24 36 44 50,
+	100	 1,
+	36	 3 31 35,
+	35	 3 31 35 42 49,
+	29	 3 5 27 31 33 35 42 49,
+	29	 3 5 27 31 33 35 42 47 49 64,
+	10	 6 13,
+	8	 6 13 37,
+	8	 43 48,
+	8	 6 13 37 43 48,
+	8	 1 4 7 8 9 10 11 12 14 15 16 17 18 19 20 21 23 24 25 26 28 29 30 32 36 38 39 40 41 44 46 50 51 52 54 56 57 58 61 62 63 67 71 72 76 77 78 79 81 84,
+	8	 1 4 7 8 9 10 11 12 14 15 16 17 18 19 20 21 23 24 25 26 28 29 30 32 36 38 39 40 41 44 46 50 51 52 54 56 57 58 61 62 67 71 72 76 77 78 79 81 84,
+	8	 1 4 7 8 9 10 11 12 14 15 16 17 18 19 20 21 23 24 25 28 29 30 32 36 38 39 40 41 44 46 50 51 52 54 56 57 58 62 67 72 76 77 78 79 81 84,
+	8	 1 4 7 8 9 10 11 12 14 15 16 17 18 19 20 21 23 24 25 28 29 30 32 36 38 39 40 41 44 46 50 51 52 54 56 57 62 67 72 76 77 78 79 81 84,
+	26	 41 72 76 77,
+	26	 9 21 41 67 72 76 77,
+	7	 1 4 7 8 10 11 12 14 15 16 17 18 19 20 23 24 25 28 29 30 32 36 38 39 40 44 46 50 51 52 54 56 57 62 78 79 81 84,
+	8	 14 81,
+	30	 15 51 54 84,
+	7	 14 15 51 52 54 56 81 84,
+	8	 7 12 14 15 30 51 52 54 56 81 84,
+	8	 7 12 14 15 16 30 39 51 52 54 56 81 84,
+	85	 17 32 40,
+	81	 62 78,
+	10	 18 25 57,
+	9	 46 79,
+	8	 18 25 46 57 79,
+	8	 17 18 25 32 40 46 57 62 78 79,
+	8	 7 12 14 15 16 17 18 25 30 32 39 40 46 51 52 54 56 57 62 78 79 81 84,
+	8	 1 4 8 10 11 19 20 23 24 28 29 36 38 44 50,
+	8	 1 4 8 10 19 20 24 36 38 44 50,
+	8	 1 19 38,
+	11	 19 38,
+	27	 107 108 110 127,
+	3	 19 37 38,
+	3	 6 13 19 37 38,
+	29	 15 56,
+	29	 51 54 84,
+	6	 5 27 33 45,
+	6	 3 5 27 31 33 35 42 45 49,
+	6	 3 5 27 31 33 35 42 45 47 49 64,
+	14	 7 12 15 30 51 52 54 56 84,
+	14	 14 16 17 18 25 32 39 40 46 57 58 62 78 79 81,
+	18	 7 12 14 15 16 17 18 25 30 32 39 40 46 51 52 54 56 57 58 62 78 79 81 84,
+	16	 1 4 8 9 10 11 20 21 23 24 28 29 36 41 44 50 67 72 76 77,
+	10	 15 52 84,
+	11	 15 51 52 54 84,
+	31	 41 52 76,
+	4	 83 87 88 89 90 91 94 97 98 99 100 120 121 122 123 124 125 126 128 129 130 131 132 134,
+	32	 5 22 27 33 45 47 64,
+	2	 3 5 22 27 31 33 35 42 45 47 49 64 68,
+	2	 3 5 22 27 31 33 34 35 42 45 47 49 60 64 68 69 70 74 75,
+	5	 8 10 20 24 36 44 50,
+	10	 21 67 72 77,
+	15	 1 4 8 10 20 24 29 36 44 50,
+	12	 1 29,
+	5	 7 12 14 16 18 25 30 39 46 57 58 79 81,
+	7	 15 52,
+	7	 12 15 30 51 52 54 56 84,
+	2	 16 39 81,
+	0	 7 12 15 16 30 39 51 52 54 56 81 84,
+	3	 14 17 46 78,
+	4	 18 25 57 58 79,
+	0	 14 17 18 25 46 57 58 78 79,
+	3	 32 62,
+	7	 32 40 62,
+	0	 14 17 18 25 32 40 46 57 58 62 78 79,
+	4	 7 18 25 57 58 79,
+	3	 7 18 25 32 40 57 58 62 79,
+	1	 14 16 17 39 46 78 81,
+	7	 7 14 16 17 18 25 32 39 40 46 57 58 62 78 79 81,
+	2	 1 4 8 9 10 11 20 21 23 24 28 29 36 44 50 67,
+	1	 52 76,
+	1	 91 97,
+	1	 1 4 8 10 11 20 21 23 24 28 29 36 44 50 67 72 77,
+	2	 11 23 72 77,
+	2	 21 28 67,
+	2	 11 21 23 28 67 72 77,
+	2	 7 79,
+	1	 7 18 25 57 58 79 81,
+	8	 17 32 40 62,
+	2	 14 17 32 40 46 62 78,
+	3	 7 14 17 18 25 32 40 46 57 58 62 78 79 81,
+	2	 21 41 67 72 76 77,
+	1	 10 36,
+	3	 105 127,
+	1	 87 89 90 97,
+	4	 6 13 19,
+	4	 38 43 48,
+	2	 17 40,
+	5	 87 91,
+	3	 7 16 39,
+	1	 7 9 12 14 15 16 17 18 21 25 30 32 39 40 41 46 51 52 54 56 57 58 62 67 72 76 77 78 79 81 84,
+	2	 20 24,
+	2	 20 24 44,
+	2	 14 17 46 78 81,
+	0	 7 32 40 62,
+	1	 7 14 17 18 25 32 40 46 57 58 62 78 79,
+	1	 5 27,
+	1	 26 61 63 71,
+	4	 7 12 15 16 30 39 51 52 54 56 84,
+	0	 1 4 8 9 10 11 19 20 21 23 24 28 29 36 38 41 44 50 67 72 76 77,
+	1	 90 97,
+	0	 14 17,
+	0	 14 17 46,
+	0	 14 17 46 79,
+	0	 14 17 46 79 81,
+	0	 14 17 18 25 46 57 58 79 81,
+	0	 32 40 62 78,
+	1	 16 39 58,
+	1	 7 12 16 30 39 58,
+	2	 79 81,
+	3	 14 17 32 40 46 62 78 79 81,
+	2	 14 17 18 25 32 40 46 57 62 78 79 81,
+	0	 7 12 15 30 41 51 52 54 56 76 84,
+	0	 12 15 30 41 51 52 54 56 76 84,
+	3	 1 4 7 8 10 11 12 14 15 16 17 18 20 23 24 25 28 29 30 32 36 39 40 44 46 50 51 52 54 56 57 58 62 78 79 81 84,
+	2	 1 4 8 10 11 15 20 23 24 28 29 36 44 50 51 52 54 56 84,
+	0	 43 48 63,
+	0	 6 13 37 43 48 63,
+	0	 6 37,
+	0	 15 51 52 54,
+	0	 15 51 52 54 56,
+	2	 14 46 81,
+	0	 53 73 80 86 92 93 95 96 99 101 102 103 104 105 106 107 108 109 110 111 112 113 114 115 116 117 118 119 121 122 127 133 135,
+	0	 7 14 16 18 25 39 46 57 58 79 81,
+	1	 5 22 27 45,
+	1	 5 22 27 42 45 49,
+	1	 33 47 64,
+	0	 15 52 56,
+	0	 5 22 27 33 45,
+	2	 87 89 90 91,
+	0	 7 12 14 15 17 18 25 30 32 40 46 51 52 54 56 57 58 62 78 79 81 84,
+	1	 7 12 16 18 25 30 39 57 58,
+	1	 60 75,
+	1	 7 14 18 25 46 57 58 79 81,
+	1	 14 16 18 25 39 46 57 58 79 81,
+	0	 52 84,
+	0	 6 19 37 38,
+	0	 7 12,
+	0	 9 72 77,
+	0	 1 4 8 10 11 20 21 23 24 28 29 36 44 50 67,
+	0	 11 21 23 28 67,
+	1	 9 11 21 23 28 67 72 77,
+	0	 9 72,
+	0	 28 77,
+	0	 11 23 28 77,
+	0	 11 21 23 28 67 77,
+	0	 89 90 91,
+	0	 12 15 16 30 39 51 52 54 56 84,
+	0	 15 51 54 56,
+	0	 6 19 37,
+	0	 1 4 7 8 9 10 11 12 14 15 16 17 18 20 21 23 24 25 28 29 30 32 36 39 40 41 44 46 50 51 52 54 56 57 62 67 72 76 77 78 79 81 84,
+	0	 14 18 25 46 57 79 81,
+	0	 7 12 14 16 17 18 25 30 32 39 40 46 57 62 78 79 81,
+	0	 7 12 14 15 16 17 18 25 30 32 39 40 41 46 51 52 54 56 57 62 76 78 79 81 84,
+	0	 4 8 10 11 20 23 24 28 29 36 44 50,
+	0	 4 8 10 11 12 15 20 23 24 28 29 30 36 44 50 51 52 54 56 84,
+	0	 4 7 8 10 11 12 14 15 16 17 18 20 23 24 25 28 29 30 32 36 39 40 44 46 50 51 52 54 56 57 58 62 78 79 81 84,
+	1	 4 7 8 9 10 11 12 14 15 16 17 18 20 21 23 24 25 28 29 30 32 36 39 40 41 44 46 50 51 52 54 56 57 58 62 67 72 76 77 78 79 81 84,
+	1	 4 7 8 9 10 11 12 14 15 16 17 18 20 21 23 24 25 26 28 29 30 32 36 39 40 41 44 46 50 51 52 54 56 57 58 61 62 67 71 72 76 77 78 79 81 84,
+	0	 1 63,
+	1	 7 12 15 16 30 39 41 51 52 54 56 76 84,
+	0	 1 4 8 10 11 20 23 24 28 29 36 44 50 72 77,
+	1	 7 52,
+	0	 7 14 52 81,
+	0	 12 15 30 51 54 56 84,
+	0	 3 5 22 27 31 33 35 42 45 49,
+	0	 7 12 18 25 30 57 58,
+	0	 15 16 39 51 52 54 56 84,
+	0	 14 15 16 17 32 39 40 46 51 52 54 56 62 78 79 81 84,
+	0	 14 17 32 40 46 62 78 79,
+	0	 4 50 52,
+	0	 4 50 52 84,
+	0	 4 15 50 52 84,
+	0	 4 15 50 51 52 54 84,
+	0	 4 15 50 51 52 54 56 84,
+	0	 4 15 41 50 51 52 54 56 76 84,
+	0	 8 10 20 24 36 44 79,
+	0	 8 10 20 24 25 36 44 57 79,
+	0	 8 10 18 20 24 25 36 44 57 79,
+	0	 8 10 18 20 24 25 32 36 40 44 57 62 79,
+	0	 7 8 10 12 18 20 24 25 30 32 36 40 44 57 62 79,
+	0	 14 16 17 39 46 58 78,
+	0	 14 16 17 39 46 58 78 81,
+	0	 7 8 10 12 14 16 17 18 20 24 25 30 32 36 39 40 44 46 57 58 62 78 79 81,
+	0	 4 7 8 10 12 14 15 16 17 18 20 24 25 30 32 36 39 40 41 44 46 50 51 52 54 56 57 58 62 76 78 79 81 84,
+	0	 28 29,
+	0	 11 23 28 29 72 77,
+	0	 11 21 23 28 29 67 72 77,
+	0	 9 11 21 23 28 29 67 72 77,
+	0	 4 7 8 9 10 11 12 14 15 16 17 18 20 21 23 24 25 26 28 29 30 32 36 39 40 41 44 46 50 51 52 54 56 57 58 61 62 63 67 71 72 76 77 78 79 81 84,
+	0	 1 6 13 19 37 38 43 48,
+	0	 6 13 43,
+	0	 1 19 37 38 48,
+	0	 1 19 37 38,
+	0	 7 15 51 52 54 56 84,
+	0	 13 19 37 38,
+	0	 15 51 54,
+	0	 7 9 12 14 15 16 17 18 21 25 30 32 39 40 41 46 51 52 54 56 57 62 67 72 76 77 78 79 81 84,
+	0	 59 68,
+	0	 1 4 8 10 11 20 23 24 28 36 44 50,
+	0	 5 22 27 33 45 47 49 64,
+	0	 7 12 14 15 16 17 18 25 30 32 39 40 41 46 51 52 54 56 57 62 72 76 77 78 79 81 84,
+	0	 1 4 8 9 10 11 19 20 21 23 24 28 29 36 38 44 50 67,
+	0	 8 10 20 24 36,
+	0	 12 14 15 16 17 30 39 46 51 52 54 56 78 81 84,
+	0	 58 79,
+	0	 27 33,
+	0	 16 18 25 39 57 58,
+	0	 14 15 16 17 39 46 51 52 54 56 78 81 84,
+	0	 7 18 25 57 58,
+	0	 7 17 32 40 62 78,
+	0	 7 12 14 15 16 17 18 25 30 32 39 40 41 46 51 52 54 56 57 58 62 72 76 77 78 79 81 84,
+	0	 14 15 16 17 18 25 32 39 40 41 46 51 52 54 56 57 58 62 76 78 79 81 84,
+	0	 48 63,
+	0	 6 13 43 48 63,
+	0	 1 4 7 8 9 10 11 12 14 15 16 17 18 19 20 21 23 24 25 26 28 29 30 32 36 37 38 39 40 41 44 46 50 51 52 54 56 57 58 61 62 67 71 72 76 77 78 79 81 84,
+	0	 1 4 7 8 9 10 11 12 14 15 16 17 18 19 20 21 23 24 25 28 29 30 32 36 37 38 39 40 41 44 46 50 51 52 54 56 57 58 62 67 72 76 77 78 79 81 84,
+	0	 62 81,
+	0	 7 62 81,
+	0	 7 18 25 57 62 81,
+	0	 7 18 25 32 40 57 62 81,
+	0	 7 14 17 18 25 32 40 46 57 62 78 81,
+	0	 7 14 16 17 18 25 32 39 40 46 57 62 78 81,
+	0	 7 12 14 15 16 17 18 25 30 32 39 40 46 51 52 54 56 57 62 78 81 84,
+	0	 76 79,
+	0	 41 76 79,
+	0	 41 58 76 79,
+	0	 1 4 8 9 10 11 19 20 21 23 24 28 29 36 37 38 44 50 67 72 77,
+	0	 1 4 8 10 11 19 20 23 24 28 29 36 37 38 44 50,
+	0	 1 4 8 10 19 20 24 36 37 38 44 50,
+	0	 15 51 52 54 56 76 84,
+	0	 7 12 15 30 51 52 54 56 76 84,
+	0	 7 12 14 15 16 17 18 25 30 32 39 40 46 51 52 54 56 57 58 62 76 78 79 81 84,
+	0	 18 25 57 58 81,
+	0	 22 45 64,
+	0	 3 5 22 27 31 33 35 42 45 49 64,
+	0	 9 21 41 58 67 72 76 77,
+	0	 6 13 19 37 38 43 48 63,
+	0	 7 15 52 84,
+	0	 7 15 51 52 54 84,
+	0	 18 25 57 76 79,
+	0	 18 25 32 40 57 62 76 79,
+	0	 14 17 18 25 32 40 46 57 62 76 78 79,
+	0	 14 17 18 25 32 40 46 57 62 76 78 79 81,
+	0	 14 16 17 18 25 32 39 40 46 57 62 76 78 79 81,
+	0	 7 12 14 15 16 17 18 25 30 32 39 40 46 51 52 54 56 57 62 76 78 79 81 84,
+	0	 1 4 8 9 10 11 19 20 21 23 24 28 29 36 38 41 44 50 67 72 77,
+	0	 41 72 77,
+	0	 21 41 67 72 77,
+	0	 9 21 41 67 72 77,
+	0	 1 4 7 8 10 11 12 14 15 16 17 18 20 23 24 25 28 29 30 32 36 39 40 41 44 46 50 51 52 54 56 57 58 62 76 78 79 81 84,
+	0	 26 71,
+	0	 38 48,
+	0	 6 13 19 37 38 48,
+	0	 7 12 14 15 16 18 25 30 39 46 51 52 54 56 57 58 79 81 84,
+	0	 60 69,
+;
+END; [Splits]
+
